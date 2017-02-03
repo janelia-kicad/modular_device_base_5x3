@@ -46,10 +46,10 @@
       (place MH2 622300 -1174750 front 0)
       (place MH3 1181100 -996950 front 0)
     )
-    (component footprints:MODULAR_DEVICE_BASE_5X3_FEMALE
+    (component modular_device_base_5x3:MODULAR_DEVICE_BASE_5X3_FEMALE
       (place MDB1 952500 -996950 front 0)
     )
-    (component footprints:TEENSY_3.2
+    (component modular_device_base_5x3:TEENSY_3.2
       (place TEENSY1 952500 -996950 back 90)
     )
   )

@@ -76,10 +76,10 @@
       (place MH2 62230 -117475 front 0 (PN MNT_HOLE))
       (place MH3 118110 -99695 front 0 (PN MNT_HOLE))
     )
-    (component footprints:MODULAR_DEVICE_BASE_5X3_FEMALE
+    (component modular_device_base_5x3:MODULAR_DEVICE_BASE_5X3_FEMALE
       (place MDB1 95250 -99695 front 0 (PN modular_device_base_5x3_FEMALE))
     )
-    (component footprints:TEENSY_3.2
+    (component modular_device_base_5x3:TEENSY_3.2
       (place TEENSY1 95250 -99695 back 90 (PN TEENSY_3_2))
     )
   )
@@ -241,7 +241,7 @@
             1492.97 2054.9  2054.9 1492.97  2415.68 784.903))
       (pin Round[A]Pad_3556_um 1 0 0)
     )
-    (image footprints:MODULAR_DEVICE_BASE_5X3_FEMALE
+    (image modular_device_base_5x3:MODULAR_DEVICE_BASE_5X3_FEMALE
       (outline (path signal 381  -20320 -16510  -20320 -19050))
       (outline (path signal 381  -20320 -19050  20320 -19050))
       (outline (path signal 381  20320 -19050  20320 -16510))
@@ -291,7 +291,7 @@
       (pin Round[A]Pad_3556_um @3 22860 -17780)
       (pin Round[A]Pad_3556_um @4 22860 17780)
     )
-    (image footprints:TEENSY_3.2
+    (image modular_device_base_5x3:TEENSY_3.2
       (outline (path signal 381  1270 -13335  1207.84 -13727.5  1027.45 -14081.5  746.487 -14362.5
             392.452 -14542.8  0 -14605  -392.452 -14542.8  -746.487 -14362.5
             -1027.45 -14081.5  -1207.84 -13727.5  -1270 -13335  -1207.84 -12942.5

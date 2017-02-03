@@ -773,7 +773,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module footprints:MODULAR_DEVICE_BASE_5X3_FEMALE (layer F.Cu) (tedit 5894A546) (tstamp 58951E52)
+  (module modular_device_base_5x3:MODULAR_DEVICE_BASE_5X3_FEMALE (layer F.Cu) (tedit 5894A546) (tstamp 58951E52)
     (at 95.25 99.695)
     (path /5894E061)
     (fp_text reference MDB1 (at 0 0) (layer F.SilkS) hide
@@ -1056,7 +1056,7 @@
     (pad "" thru_hole circle (at 22.86 -17.78) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module footprints:TEENSY_3.2 (layer B.Cu) (tedit 5894A59B) (tstamp 58951E53)
+  (module modular_device_base_5x3:TEENSY_3.2 (layer B.Cu) (tedit 5894A59B) (tstamp 58951E53)
     (at 95.25 99.695 270)
     (path /5894DF30)
     (fp_text reference TEENSY1 (at 0 -19.05 270) (layer B.SilkS)
