@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:components
 LIBS:modular_device_base_5x3
+LIBS:modular_device_base_5x3-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
@@ -37,7 +38,7 @@ encoding utf-8
 Sheet 1 1
 Title "modular_device_base_5x3"
 Date ""
-Rev "1.2"
+Rev "1.0"
 Comp "Janelia"
 Comment1 ""
 Comment2 ""
