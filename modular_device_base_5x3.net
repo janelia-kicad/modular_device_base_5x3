@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/polidorop/git/kicad/modular_device_base_5x3/modular_device_base_5x3.sch)
-    (date "Tue 07 Feb 2017 04:55:48 PM EST")
+    (date "Wed 08 Feb 2017 10:00:44 AM EST")
     (tool "Eeschema no-vcs-found-7584~57~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
