@@ -3,7 +3,7 @@
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "no-vcs-found-ea855c1~58~ubuntu16.04.1")
+    (host_version "no-vcs-found-ef6910f~59~ubuntu16.04.1")
   )
   (resolution um 10)
   (unit um)
@@ -27,12 +27,16 @@
     (via "Via[0-1]_600:400_um" "Via[0-1]_889:635_um")
     (rule
       (width 250)
-      (clearance 200.1)
-      (clearance 200.1 (type default_smd))
-      (clearance 50 (type smd_smd))
+      (clearance 0.1)
+      (clearance 6 (type default_smd))
+      (clearance 0 (type smd_smd))
     )
   )
   (placement
+    (component footprints:Header_2_Pin_SMD_RA_UNSHR
+      (place P12 62230 -123825 back 90 (PN HEADER_01X02_SMD_RA_UNSHR))
+      (place P13 69215 -69215 back 0 (PN HEADER_01X02_SMD_RA_UNSHR))
+    )
     (component footprints:MODULAR_DEVICE_BASE_5X3_FEMALE
       (place MDB1 95250 -99695 front 0 (PN MODULAR_DEVICE_BASE_5x3_FEMALE))
     )
@@ -51,8 +55,8 @@
       (place REG1 71755 -113030 front 90 (PN CONV_DC_DC_5V_1A))
     )
     (component modular_device_base_5x3:KT_SWITCH
-      (place SW1 69215 -123825 front 180 (PN KT_SWITCH))
-      (place SW2 69215 -72390 front 90 (PN KT_SWITCH))
+      (place SW1 69215 -123825 front 0 (PN KT_SWITCH))
+      (place SW2 69215 -72390 front 270 (PN KT_SWITCH))
     )
     (component modular_device_base_5x3:CFP15
       (place D4 169545 -86995 front 270 (PN diode_schottky_45V_10A))
@@ -125,15 +129,29 @@
     )
   )
   (library
+    (image footprints:Header_2_Pin_SMD_RA_UNSHR
+      (outline (path signal 228.6  1270 1270  1270 1905))
+      (outline (path signal 228.6  -1270 1270  -1270 1905))
+      (outline (path signal 228.6  1270 -1270  1270 -3175))
+      (outline (path signal 228.6  -1270 -1270  -1270 -3175))
+      (outline (path signal 228.6  1270 7112  1270 1270))
+      (outline (path signal 228.6  -1270 7112  -1270 1270))
+      (outline (path signal 228.6  -2540 1270  -2540 -1270))
+      (outline (path signal 228.6  -2540 -1270  2540 -1270))
+      (outline (path signal 228.6  2540 -1270  2540 1270))
+      (outline (path signal 228.6  2540 1270  -2540 1270))
+      (pin Rect[T]Pad_1270x3175_um 2 1270 -5283.2)
+      (pin Rect[T]Pad_1270x3175_um 1 -1270 -5283.2)
+    )
     (image footprints:MODULAR_DEVICE_BASE_5X3_FEMALE
+      (outline (path signal 228.6  -21590 -33655  99695 -33655))
+      (outline (path signal 228.6  99695 -33655  99695 33655))
+      (outline (path signal 228.6  99695 33655  -21590 33655))
       (outline (path signal 381  -20320 29210  43180 29210))
       (outline (path signal 381  -20320 31750  43180 31750))
       (outline (path signal 381  -20320 -31750  43180 -31750))
       (outline (path signal 381  -20320 -29210  43180 -29210))
-      (outline (path signal 228.6  99060 33020  -21590 33020))
-      (outline (path signal 228.6  99060 -33020  99060 33020))
-      (outline (path signal 228.6  -21590 -33020  99060 -33020))
-      (outline (path signal 228.6  -21590 33020  -21590 -33020))
+      (outline (path signal 228.6  -21590 33655  -21590 -33655))
       (outline (path signal 381  43180 29210  43180 31750))
       (outline (path signal 381  -20320 31750  -20320 29210))
       (outline (path signal 381  43180 -31750  43180 -29210))
@@ -639,6 +657,10 @@
       (shape (rect F.Cu -635 -1270 635 1270))
       (attach off)
     )
+    (padstack Rect[T]Pad_1270x3175_um
+      (shape (rect F.Cu -635 -1587.5 635 1587.5))
+      (attach off)
+    )
     (padstack Rect[T]Pad_1330.96x558.8_um
       (shape (rect F.Cu -665.48 -279.4 665.48 279.4))
       (attach off)
@@ -672,8 +694,9 @@
       (pins D3-2 D3-2@1 P1-1)
     )
     (net GND
-      (pins MDB1-GND C1-2 C2-2 REG1-2 SW1-3 C3-2 C4-2 C5-2 P2-2 P2-4 P4-2 P5-2 P7-2
-        TEENSY1-GND P9-2 P10-1 P3-2 P6-1 P8-2 P1-2 C6-2 L1-2 L2-2 L3-2 SW2-3 U1-2)
+      (pins P12-2 P13-2 MDB1-GND C1-2 C2-2 REG1-2 SW1-3 C3-2 C4-2 C5-2 P2-2 P2-4 P4-2
+        P5-2 P7-2 TEENSY1-GND P9-2 P10-1 P3-2 P6-1 P8-2 P1-2 C6-2 L1-2 L2-2 L3-2 SW2-3
+        U1-2)
     )
     (net /RX1
       (pins TEENSY1-0 P3-1)
@@ -884,10 +907,10 @@
       (pins TEENSY1-27 L3-1)
     )
     (net /BTN_A
-      (pins SW1-2 U1-1)
+      (pins P12-1 SW1-2 U1-1)
     )
     (net /BTN_B
-      (pins SW2-2 U1-3)
+      (pins P13-1 SW2-2 U1-3)
     )
     (net /BTN_B_D
       (pins TEENSY1-25 U1-4)
@@ -898,13 +921,58 @@
     (net "Net-(P11-Pad2)"
       (pins R1-2 P11-2)
     )
+    (net "Net-(MH1-Pad1)"
+      (pins MH1-1)
+    )
+    (net "Net-(MH2-Pad1)"
+      (pins MH2-1)
+    )
+    (net "Net-(MH3-Pad1)"
+      (pins MH3-1)
+    )
+    (net "Net-(MH4-Pad1)"
+      (pins MH4-1)
+    )
+    (net "Net-(MH5-Pad1)"
+      (pins MH5-1)
+    )
+    (net "Net-(MH6-Pad1)"
+      (pins MH6-1)
+    )
+    (net "Net-(MH7-Pad1)"
+      (pins MH7-1)
+    )
+    (net "Net-(MH8-Pad1)"
+      (pins MH8-1)
+    )
+    (net "Net-(P11-Pad3)"
+      (pins P11-3)
+    )
+    (net "Net-(TEENSY1-Pad39)"
+      (pins TEENSY1-39)
+    )
+    (net "Net-(TEENSY1-Pad28)"
+      (pins TEENSY1-28)
+    )
+    (net "Net-(TEENSY1-Pad3)"
+      (pins TEENSY1-3)
+    )
+    (net "Net-(TEENSY1-Pad4)"
+      (pins TEENSY1-4)
+    )
+    (net "Net-(TEENSY1-PadRSET)"
+      (pins TEENSY1-RSET)
+    )
+    (net "Net-(TEENSY1-PadPROG)"
+      (pins TEENSY1-PROG)
+    )
     (class kicad_default ""
       (circuit
         (use_via Via[0-1]_600:400_um)
       )
       (rule
         (width 250)
-        (clearance 200.1)
+        (clearance 0.1)
       )
     )
     (class Power +5V /3V3 /AGND /AREF /V_USB VAA VCC VDD VDDA VPP VSS VSSA
@@ -920,8 +988,7 @@
       /D11 /D12 /D13 /D14 /D15 /D16 /D17 /D18 /D19 /D2 /D20 /D21 /D22 /D23
       /D29 /D30 /D33 /D34 /D35 /D36 /D37 /D38 /D40 /D41 /D42 /D43 /D44 /D45
       /D46 /D47 /D48 /D49 /D5 /D50 /D51 /D52 /D53 /D54 /D55 /D6 /DAC0 /DAC1
-      /E_CLK /E_RXD0 /E_RXD1 /E_RXDV /E_RXER /E_TXD0 /E_TXD1 /E_TXEN /LED_GRN
-      /LED_YEL /PROG /RX1 /RX2 /RX3 /RX4 /TX1 /TX2 /TX3 /TX4 GND "Net-(L1-Pad1)"
+      /LED_GRN /LED_YEL /RX1 /RX2 /RX3 /RX4 /TX1 /TX2 /TX3 /TX4 GND "Net-(L1-Pad1)"
       "Net-(MH1-Pad1)" "Net-(MH2-Pad1)" "Net-(MH3-Pad1)" "Net-(MH4-Pad1)"
       "Net-(MH5-Pad1)" "Net-(MH6-Pad1)" "Net-(MH7-Pad1)" "Net-(MH8-Pad1)"
       "Net-(P11-Pad2)" "Net-(P11-Pad3)" "Net-(TEENSY1-Pad28)" "Net-(TEENSY1-Pad3)"
