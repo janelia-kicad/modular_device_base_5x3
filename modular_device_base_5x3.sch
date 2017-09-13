@@ -56,7 +56,7 @@ F 4 "digikey" H 2500 7000 60  0001 C CNN "Vendor"
 F 5 "945-1395-5-ND" H 2500 7100 60  0001 C CNN "PartNumber"
 F 6 "CONV DC/DC 1A 5V OUT SIP VERT" H 3000 7200 60  0001 C CNN "Description"
 	1    2500 7200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 10uF C1
@@ -70,7 +70,7 @@ F 4 "digikey" H 2000 7700 60  0001 C CNN "Vendor"
 F 5 "445-4536-1-ND" H 2100 7800 60  0001 C CNN "PartNumber"
 F 6 "CAP CER 10UF 50V 10% X7S 1210" H 2200 7900 60  0001 C CNN "Description"
 	1    1900 7500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 10uF C2
@@ -84,7 +84,7 @@ F 4 "digikey" H 3200 7700 60  0001 C CNN "Vendor"
 F 5 "445-4536-1-ND" H 3300 7800 60  0001 C CNN "PartNumber"
 F 6 "CAP CER 10UF 50V 10% X7S 1210" H 3400 7900 60  0001 C CNN "Description"
 	1    3100 7500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR01
@@ -95,7 +95,7 @@ F 1 "GND" H 2505 7627 50  0000 C CNN
 F 2 "" H 2500 7800 50  0000 C CNN
 F 3 "" H 2500 7800 50  0000 C CNN
 	1    2500 7800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PWR_FLAG #FLG02
@@ -106,7 +106,7 @@ F 1 "PWR_FLAG" H 700 7624 50  0000 C CNN
 F 2 "" H 700 7400 50  0000 C CNN
 F 3 "" H 700 7400 50  0000 C CNN
 	1    700  7400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PWR_FLAG #FLG03
@@ -117,7 +117,7 @@ F 1 "PWR_FLAG" H 1000 7524 50  0000 C CNN
 F 2 "" H 1000 7300 50  0000 C CNN
 F 3 "" H 1000 7300 50  0000 C CNN
 	1    1000 7300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VAA #PWR04
@@ -128,7 +128,7 @@ F 1 "VAA" H 1167 7523 50  0000 C CNN
 F 2 "" H 1150 7350 50  0000 C CNN
 F 3 "" H 1150 7350 50  0000 C CNN
 	1    1150 7350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR05
@@ -139,7 +139,7 @@ F 1 "GND" H 1155 7377 50  0000 C CNN
 F 2 "" H 1150 7550 50  0000 C CNN
 F 3 "" H 1150 7550 50  0000 C CNN
 	1    1150 7550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR06
@@ -150,7 +150,7 @@ F 1 "GND" H 655 1027 50  0000 C CNN
 F 2 "" H 650 1200 50  0000 C CNN
 F 3 "" H 650 1200 50  0000 C CNN
 	1    650  1200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 800  1100 0    60   ~ 0
 GND
@@ -166,7 +166,7 @@ F 4 "digikey" H 800 6600 60  0001 C CNN "Vendor"
 F 5 "A100890CT-ND" H 900 6700 60  0001 C CNN "PartNumber"
 F 6 "CONN HEADER 3POS R/A SMD GOLD" H 1000 6800 60  0001 C CNN "Description"
 	1    700  6300
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Text Label 950  6200 0    60   ~ 0
 TX1
@@ -198,7 +198,7 @@ F 4 "digikey" H 3050 6600 60  0001 C CNN "Vendor"
 F 5 "A100890CT-ND" H 3150 6700 60  0001 C CNN "PartNumber"
 F 6 "CONN HEADER 3POS R/A SMD GOLD" H 3250 6800 60  0001 C CNN "Description"
 	1    2950 6300
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Text Label 3200 6200 0    60   ~ 0
 TX2
@@ -218,7 +218,7 @@ F 4 "digikey" H 1900 6600 60  0001 C CNN "Vendor"
 F 5 "A100890CT-ND" H 2000 6700 60  0001 C CNN "PartNumber"
 F 6 "CONN HEADER 3POS R/A SMD GOLD" H 2100 6800 60  0001 C CNN "Description"
 	1    1800 6300
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Text Label 2050 6200 0    60   ~ 0
 TX3
@@ -238,7 +238,7 @@ F 4 "digikey" H 5600 7650 60  0001 C CNN "Vendor"
 F 5 "ACX1655-ND" H 5700 7750 60  0001 C CNN "PartNumber"
 F 6 "CONN BNC JACK R/A 75 OHM PCB" H 5800 7850 60  0001 C CNN "Description"
 	1    5500 7400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR07
@@ -249,7 +249,7 @@ F 1 "GND" H 5855 7377 50  0000 C CNN
 F 2 "" H 5850 7550 50  0000 C CNN
 F 3 "" H 5850 7550 50  0000 C CNN
 	1    5850 7550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 5150 7350 2    60   ~ 0
 BNC_A
@@ -266,7 +266,7 @@ F 1 "+5V" H 3115 7323 50  0000 C CNN
 F 2 "" H 3100 7150 50  0000 C CNN
 F 3 "" H 3100 7150 50  0000 C CNN
 	1    3100 7150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L +5V #PWR09
@@ -276,8 +276,8 @@ F 0 "#PWR09" H 4850 650 50  0001 C CNN
 F 1 "+5V" H 4865 973 50  0000 C CNN
 F 2 "" H 4850 800 50  0000 C CNN
 F 3 "" H 4850 800 50  0000 C CNN
-	1    4850 800 
-	1    0    0    -1  
+	1    4850 800
+	1    0    0    -1
 $EndComp
 $Comp
 L diode_schottky_15V_1A D1
@@ -290,8 +290,8 @@ F 3 "" H 4450 1030 60  0001 C CNN
 F 4 "digikey" H 4550 1130 60  0001 C CNN "Vendor"
 F 5 "LSM115JE3/TR13CT-ND" H 4650 1230 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 15V 1A DO214BA" H 4750 1330 60  0001 C CNN "Description"
-	1    4500 950 
-	0    -1   -1   0   
+	1    4500 950
+	0    -1   -1   0
 $EndComp
 $Comp
 L diode_schottky_15V_1A D2
@@ -304,8 +304,8 @@ F 3 "" H 4800 1030 60  0001 C CNN
 F 4 "digikey" H 4900 1130 60  0001 C CNN "Vendor"
 F 5 "LSM115JE3/TR13CT-ND" H 5000 1230 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 15V 1A DO214BA" H 5100 1330 60  0001 C CNN "Description"
-	1    4850 950 
-	0    -1   -1   0   
+	1    4850 950
+	0    -1   -1   0
 $EndComp
 $Comp
 L HEADER_01X02_SMD_RA P4
@@ -319,7 +319,7 @@ F 4 "digikey" H 1550 6550 60  0001 C CNN "Vendor"
 F 5 "A100903CT-ND" H 1650 6650 60  0001 C CNN "PartNumber"
 F 6 "CONN HEADER 2POS R/A SMD GOLD" H 1750 6750 60  0001 C CNN "Description"
 	1    1450 6300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VDD #PWR010
@@ -330,7 +330,7 @@ F 1 "VDD" H 1267 5223 50  0000 C CNN
 F 2 "" H 1250 5050 50  0000 C CNN
 F 3 "" H 1250 5050 50  0000 C CNN
 	1    1250 5050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR011
@@ -341,7 +341,7 @@ F 1 "VCC" H 1217 6373 50  0000 C CNN
 F 2 "" H 1200 6200 50  0000 C CNN
 F 3 "" H 1200 6200 50  0000 C CNN
 	1    1200 6200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR012
@@ -352,7 +352,7 @@ F 1 "GND" H 1205 6277 50  0000 C CNN
 F 2 "" H 1200 6450 50  0000 C CNN
 F 3 "" H 1200 6450 50  0000 C CNN
 	1    1200 6450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L diode_schottky_45V_10A D3
@@ -366,7 +366,7 @@ F 4 "digikey" H 850 5430 60  0001 C CNN "Vendor"
 F 5 "568-11697-1-ND" H 950 5530 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 1050 5630 60  0001 C CNN "Description"
 	1    800  5250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L diode_schottky_45V_10A D4
@@ -380,7 +380,7 @@ F 4 "digikey" H 1200 5430 60  0001 C CNN "Vendor"
 F 5 "568-11697-1-ND" H 1300 5530 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 1400 5630 60  0001 C CNN "Description"
 	1    1150 5250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L VAA #PWR013
@@ -391,7 +391,7 @@ F 1 "VAA" H 817 5223 50  0000 C CNN
 F 2 "" H 800 5050 50  0000 C CNN
 F 3 "" H 800 5050 50  0000 C CNN
 	1    800  5050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR014
@@ -402,7 +402,7 @@ F 1 "VCC" H 1717 5223 50  0000 C CNN
 F 2 "" H 1700 5050 50  0000 C CNN
 F 3 "" H 1700 5050 50  0000 C CNN
 	1    1700 5050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L HEADER_01X02_SMD_RA P6
@@ -416,7 +416,7 @@ F 4 "digikey" H 2500 6550 60  0001 C CNN "Vendor"
 F 5 "A100903CT-ND" H 2600 6650 60  0001 C CNN "PartNumber"
 F 6 "CONN HEADER 2POS R/A SMD GOLD" H 2700 6750 60  0001 C CNN "Description"
 	1    2400 6300
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L GND #PWR015
@@ -427,7 +427,7 @@ F 1 "GND" H 2655 6277 50  0000 C CNN
 F 2 "" H 2650 6450 50  0000 C CNN
 F 3 "" H 2650 6450 50  0000 C CNN
 	1    2650 6450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VEE #PWR016
@@ -437,8 +437,8 @@ F 0 "#PWR016" H 5050 650 50  0001 C CNN
 F 1 "VEE" H 5067 973 50  0000 C CNN
 F 2 "" H 5050 800 50  0000 C CNN
 F 3 "" H 5050 800 50  0000 C CNN
-	1    5050 800 
-	1    0    0    -1  
+	1    5050 800
+	1    0    0    -1
 $EndComp
 $Comp
 L KT_SWITCH SW1
@@ -452,7 +452,7 @@ F 4 "digikey" H 3700 7650 60  0001 C CNN "Vendor"
 F 5 "CKN1860CT-ND" H 3800 7750 60  0001 C CNN "PartNumber"
 F 6 "SWITCH TACTILE SPST-NO 1VA 32V" H 3900 7850 60  0001 C CNN "Description"
 	1    3600 7450
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L GND #PWR017
@@ -463,7 +463,7 @@ F 1 "GND" H 3605 7627 50  0000 C CNN
 F 2 "" H 3600 7800 50  0000 C CNN
 F 3 "" H 3600 7800 50  0000 C CNN
 	1    3600 7800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 4550 3700 0    60   ~ 0
 BNC_A
@@ -576,7 +576,7 @@ F 1 "GND" H 6055 1577 50  0000 C CNN
 F 2 "" H 6050 1750 50  0000 C CNN
 F 3 "" H 6050 1750 50  0000 C CNN
 	1    6050 1750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VDD #PWR019
@@ -587,7 +587,7 @@ F 1 "VDD" H 6467 1723 50  0000 C CNN
 F 2 "" H 6450 1550 50  0000 C CNN
 F 3 "" H 6450 1550 50  0000 C CNN
 	1    6450 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VEE #PWR020
@@ -598,7 +598,7 @@ F 1 "VEE" H 9917 1723 50  0000 C CNN
 F 2 "" H 9900 1550 50  0000 C CNN
 F 3 "" H 9900 1550 50  0000 C CNN
 	1    9900 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PWR_FLAG #FLG021
@@ -609,7 +609,7 @@ F 1 "PWR_FLAG" H 5300 1224 50  0000 C CNN
 F 2 "" H 5300 1000 50  0000 C CNN
 F 3 "" H 5300 1000 50  0000 C CNN
 	1    5300 1000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PWR_FLAG #FLG022
@@ -620,7 +620,7 @@ F 1 "PWR_FLAG" H 1600 5224 50  0000 C CNN
 F 2 "" H 1600 5000 50  0000 C CNN
 F 3 "" H 1600 5000 50  0000 C CNN
 	1    1600 5000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PWR_FLAG #FLG023
@@ -631,7 +631,7 @@ F 1 "PWR_FLAG" H 5600 1324 50  0000 C CNN
 F 2 "" H 5600 1100 50  0000 C CNN
 F 3 "" H 5600 1100 50  0000 C CNN
 	1    5600 1100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PWR_FLAG #FLG024
@@ -642,7 +642,7 @@ F 1 "PWR_FLAG" H 1150 5224 50  0000 C CNN
 F 2 "" H 1150 5000 50  0000 C CNN
 F 3 "" H 1150 5000 50  0000 C CNN
 	1    1150 5000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 10uF C3
@@ -656,7 +656,7 @@ F 4 "digikey" H 6950 5950 60  0001 C CNN "Vendor"
 F 5 "445-4536-1-ND" H 7050 6050 60  0001 C CNN "PartNumber"
 F 6 "CAP CER 10UF 50V 10% X7S 1210" H 7150 6150 60  0001 C CNN "Description"
 	1    6850 5750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 10uF C4
@@ -670,7 +670,7 @@ F 4 "digikey" H 7300 5950 60  0001 C CNN "Vendor"
 F 5 "445-4536-1-ND" H 7400 6050 60  0001 C CNN "PartNumber"
 F 6 "CAP CER 10UF 50V 10% X7S 1210" H 7500 6150 60  0001 C CNN "Description"
 	1    7200 5750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 10uF C5
@@ -684,7 +684,7 @@ F 4 "digikey" H 7650 5950 60  0001 C CNN "Vendor"
 F 5 "445-4536-1-ND" H 7750 6050 60  0001 C CNN "PartNumber"
 F 6 "CAP CER 10UF 50V 10% X7S 1210" H 7850 6150 60  0001 C CNN "Description"
 	1    7550 5750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VEE #PWR025
@@ -695,7 +695,7 @@ F 1 "VEE" H 7217 5673 50  0000 C CNN
 F 2 "" H 7200 5500 50  0000 C CNN
 F 3 "" H 7200 5500 50  0000 C CNN
 	1    7200 5500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 7600 5500 0    60   ~ 0
 3V3
@@ -708,7 +708,7 @@ F 1 "GND" H 6855 5827 50  0000 C CNN
 F 2 "" H 6850 6000 50  0000 C CNN
 F 3 "" H 6850 6000 50  0000 C CNN
 	1    6850 6000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR027
@@ -719,7 +719,7 @@ F 1 "GND" H 7205 5827 50  0000 C CNN
 F 2 "" H 7200 6000 50  0000 C CNN
 F 3 "" H 7200 6000 50  0000 C CNN
 	1    7200 6000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR028
@@ -730,7 +730,7 @@ F 1 "GND" H 7555 5827 50  0000 C CNN
 F 2 "" H 7550 6000 50  0000 C CNN
 F 3 "" H 7550 6000 50  0000 C CNN
 	1    7550 6000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 9700 4850
 NoConn ~ 9700 5050
@@ -747,7 +747,7 @@ F 4 "digikey" H 10000 5050 60  0001 C CNN "Vendor"
 F 5 "36-2027-ND" H 10100 5150 60  0001 C CNN "PartNumber"
 F 6 "Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in" H 10200 5250 60  0001 C CNN "Description"
 	1    9900 4850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L MNT_HOLE MH2
@@ -761,7 +761,7 @@ F 4 "digikey" H 10000 5250 60  0001 C CNN "Vendor"
 F 5 "36-2027-ND" H 10100 5350 60  0001 C CNN "PartNumber"
 F 6 "Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in" H 10200 5450 60  0001 C CNN "Description"
 	1    9900 5050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L MNT_HOLE MH3
@@ -775,7 +775,7 @@ F 4 "digikey" H 10000 5450 60  0001 C CNN "Vendor"
 F 5 "36-2027-ND" H 10100 5550 60  0001 C CNN "PartNumber"
 F 6 "Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in" H 10200 5650 60  0001 C CNN "Description"
 	1    9900 5250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L TEENSY_3.5 TEENSY1
@@ -789,7 +789,7 @@ F 4 "digikey" H -2750 1900 60  0001 C CNN "Vendor"
 F 5 "1568-1443-ND" H -2750 2000 60  0001 C CNN "PartNumber"
 F 6 "TEENSY 3.5" H -2750 2100 60  0001 C CNN "Description"
 	1    2900 1750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 1250 2300 2    60   ~ 0
 D11
@@ -805,7 +805,7 @@ F 4 "digikey" H 4150 6600 60  0001 C CNN "Vendor"
 F 5 "A100890CT-ND" H 4250 6700 60  0001 C CNN "PartNumber"
 F 6 "CONN HEADER 3POS R/A SMD GOLD" H 4350 6800 60  0001 C CNN "Description"
 	1    4050 6300
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Text Label 4300 6200 0    60   ~ 0
 TX4
@@ -883,7 +883,7 @@ F 5 "S7058-ND" H 200 1050 60  0001 C CNN "PartNumber"
 F 6 "25 Position Header Through Hole Female Socket" H 200 1150 60  0001 C CNN "Description"
 F 7 "2" H 1500 1050 60  0001 C CNN "PartCount"
 	1    7950 2350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 9600 3300 0    60   ~ 0
 DAC0
@@ -933,7 +933,7 @@ F 4 "digikey" H 4750 6550 60  0001 C CNN "Vendor"
 F 5 "A100903CT-ND" H 4850 6650 60  0001 C CNN "PartNumber"
 F 6 "CONN HEADER 2POS R/A SMD GOLD" H 4950 6750 60  0001 C CNN "Description"
 	1    4650 6300
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L GND #PWR029
@@ -944,7 +944,7 @@ F 1 "GND" H 4905 6277 50  0000 C CNN
 F 2 "" H 4900 6450 50  0000 C CNN
 F 3 "" H 4900 6450 50  0000 C CNN
 	1    4900 6450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L HEADER_01X02_SMD_RA P8
@@ -958,7 +958,7 @@ F 4 "digikey" H 3800 6550 60  0001 C CNN "Vendor"
 F 5 "A100903CT-ND" H 3900 6650 60  0001 C CNN "PartNumber"
 F 6 "CONN HEADER 2POS R/A SMD GOLD" H 4000 6750 60  0001 C CNN "Description"
 	1    3700 6300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR030
@@ -969,7 +969,7 @@ F 1 "GND" H 3455 6277 50  0000 C CNN
 F 2 "" H 3450 6450 50  0000 C CNN
 F 3 "" H 3450 6450 50  0000 C CNN
 	1    3450 6450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VDDA #PWR031
@@ -980,7 +980,7 @@ F 1 "VDDA" H 2617 5223 50  0000 C CNN
 F 2 "" H 1600 -250 50  0001 C CNN
 F 3 "" H 1600 -250 50  0001 C CNN
 	1    2600 5050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L diode_schottky_45V_10A D5
@@ -994,7 +994,7 @@ F 4 "digikey" H 1400 5430 60  0001 C CNN "Vendor"
 F 5 "568-11697-1-ND" H 1500 5530 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 1600 5630 60  0001 C CNN "Description"
 	1    1350 5250
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L PWR_FLAG #FLG032
@@ -1005,7 +1005,7 @@ F 1 "PWR_FLAG" H 2050 5224 50  0000 C CNN
 F 2 "" H 2050 5000 50  0000 C CNN
 F 3 "" H 2050 5000 50  0000 C CNN
 	1    2050 5000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VDDA #PWR033
@@ -1016,7 +1016,7 @@ F 1 "VDDA" H 3467 6373 50  0000 C CNN
 F 2 "" H 2450 900 50  0001 C CNN
 F 3 "" H 2450 900 50  0001 C CNN
 	1    3450 6200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PWR_JACK_2.5x5.5 P1
@@ -1030,7 +1030,7 @@ F 4 "digikey" H -200 300 60  0001 C CNN "Vendor"
 F 5 "CP-063BH-ND" H -100 400 60  0001 C CNN "PartNumber"
 F 6 "CONN PWR JACK DC 2.5X5.5 8A T/H" H 0   500 60  0001 C CNN "Description"
 	1    1450 7450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 9700 5450
 $Comp
@@ -1045,7 +1045,7 @@ F 4 "digikey" H 10000 5650 60  0001 C CNN "Vendor"
 F 5 "36-2027-ND" H 10100 5750 60  0001 C CNN "PartNumber"
 F 6 "Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in" H 10200 5850 60  0001 C CNN "Description"
 	1    9900 5450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 9700 5650
 $Comp
@@ -1060,7 +1060,7 @@ F 4 "digikey" H 10000 5850 60  0001 C CNN "Vendor"
 F 5 "36-2027-ND" H 10100 5950 60  0001 C CNN "PartNumber"
 F 6 "Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in" H 10200 6050 60  0001 C CNN "Description"
 	1    9900 5650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 9700 5850
 $Comp
@@ -1075,7 +1075,7 @@ F 4 "digikey" H 10000 6050 60  0001 C CNN "Vendor"
 F 5 "36-2027-ND" H 10100 6150 60  0001 C CNN "PartNumber"
 F 6 "Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in" H 10200 6250 60  0001 C CNN "Description"
 	1    9900 5850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 1450 3500
 NoConn ~ 4350 2800
@@ -1096,7 +1096,7 @@ F 4 "digikey" H 4300 7650 60  0001 C CNN "Vendor"
 F 5 "CKN1860CT-ND" H 4400 7750 60  0001 C CNN "PartNumber"
 F 6 "SWITCH TACTILE SPST-NO 1VA 32V" H 4500 7850 60  0001 C CNN "Description"
 	1    4200 7450
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L GND #PWR034
@@ -1107,7 +1107,7 @@ F 1 "GND" H 4205 7627 50  0000 C CNN
 F 2 "" H 4200 7800 50  0000 C CNN
 F 3 "" H 4200 7800 50  0000 C CNN
 	1    4200 7800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 4250 7150 0    60   ~ 0
 BTN_B
@@ -1123,7 +1123,7 @@ F 4 "digikey" H 1650 5430 60  0001 C CNN "Vendor"
 F 5 "568-11697-1-ND" H 1750 5530 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 1850 5630 60  0001 C CNN "Description"
 	1    1600 5250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L diode_schottky_45V_10A D7
@@ -1137,7 +1137,7 @@ F 4 "digikey" H 1850 5430 60  0001 C CNN "Vendor"
 F 5 "568-11697-1-ND" H 1950 5530 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 2050 5630 60  0001 C CNN "Description"
 	1    1800 5250
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L VSS #PWR035
@@ -1148,7 +1148,7 @@ F 1 "VSS" H 2167 5223 50  0000 C CNN
 F 2 "" H 2150 5050 50  0001 C CNN
 F 3 "" H 2150 5050 50  0001 C CNN
 	1    2150 5050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VSS #PWR036
@@ -1159,7 +1159,7 @@ F 1 "VSS" H 2667 6373 50  0000 C CNN
 F 2 "" H 2650 6200 50  0001 C CNN
 F 3 "" H 2650 6200 50  0001 C CNN
 	1    2650 6200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L diode_schottky_45V_10A D8
@@ -1173,7 +1173,7 @@ F 4 "digikey" H 2100 5430 60  0001 C CNN "Vendor"
 F 5 "568-11697-1-ND" H 2200 5530 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 2300 5630 60  0001 C CNN "Description"
 	1    2050 5250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L diode_schottky_45V_10A D9
@@ -1187,7 +1187,7 @@ F 4 "digikey" H 2300 5430 60  0001 C CNN "Vendor"
 F 5 "568-11697-1-ND" H 2400 5530 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 2500 5630 60  0001 C CNN "Description"
 	1    2250 5250
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L PWR_FLAG #FLG037
@@ -1198,7 +1198,7 @@ F 1 "PWR_FLAG" H 2500 5224 50  0000 C CNN
 F 2 "" H 2500 5000 50  0000 C CNN
 F 3 "" H 2500 5000 50  0000 C CNN
 	1    2500 5000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L diode_schottky_45V_10A D10
@@ -1212,7 +1212,7 @@ F 4 "digikey" H 2550 5430 60  0001 C CNN "Vendor"
 F 5 "568-11697-1-ND" H 2650 5530 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 2750 5630 60  0001 C CNN "Description"
 	1    2500 5250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L diode_schottky_45V_10A D11
@@ -1226,7 +1226,7 @@ F 4 "digikey" H 2750 5430 60  0001 C CNN "Vendor"
 F 5 "568-11697-1-ND" H 2850 5530 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 2950 5630 60  0001 C CNN "Description"
 	1    2700 5250
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L VSSA #PWR038
@@ -1237,7 +1237,7 @@ F 1 "VSSA" H 3067 5223 50  0000 C CNN
 F 2 "" H 3050 5050 50  0001 C CNN
 F 3 "" H 3050 5050 50  0001 C CNN
 	1    3050 5050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VSSA #PWR039
@@ -1248,7 +1248,7 @@ F 1 "VSSA" H 4917 6373 50  0000 C CNN
 F 2 "" H 4900 6200 50  0001 C CNN
 F 3 "" H 4900 6200 50  0001 C CNN
 	1    4900 6200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L diode_schottky_45V_10A D12
@@ -1262,7 +1262,7 @@ F 4 "digikey" H 3000 5430 60  0001 C CNN "Vendor"
 F 5 "568-11697-1-ND" H 3100 5530 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 3200 5630 60  0001 C CNN "Description"
 	1    2950 5250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L diode_schottky_45V_10A D13
@@ -1276,7 +1276,7 @@ F 4 "digikey" H 3200 5430 60  0001 C CNN "Vendor"
 F 5 "568-11697-1-ND" H 3300 5530 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 3400 5630 60  0001 C CNN "Description"
 	1    3150 5250
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L PWR_FLAG #FLG040
@@ -1287,7 +1287,7 @@ F 1 "PWR_FLAG" H 2950 5224 50  0000 C CNN
 F 2 "" H 2950 5000 50  0000 C CNN
 F 3 "" H 2950 5000 50  0000 C CNN
 	1    2950 5000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VPP #PWR041
@@ -1298,7 +1298,7 @@ F 1 "VPP" H 3515 5223 50  0000 C CNN
 F 2 "" H 3500 5050 50  0001 C CNN
 F 3 "" H 3500 5050 50  0001 C CNN
 	1    3500 5050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PWR_FLAG #FLG042
@@ -1309,7 +1309,7 @@ F 1 "PWR_FLAG" H 3400 5224 50  0000 C CNN
 F 2 "" H 3400 5000 50  0000 C CNN
 F 3 "" H 3400 5000 50  0000 C CNN
 	1    3400 5000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VPP #PWR043
@@ -1320,7 +1320,7 @@ F 1 "VPP" H 1915 7323 50  0000 C CNN
 F 2 "" H 1900 7150 50  0001 C CNN
 F 3 "" H 1900 7150 50  0001 C CNN
 	1    1900 7150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VPP #PWR044
@@ -1331,7 +1331,7 @@ F 1 "VPP" H 6865 5673 50  0000 C CNN
 F 2 "" H 6850 5500 50  0001 C CNN
 F 3 "" H 6850 5500 50  0001 C CNN
 	1    6850 5500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED_5V_YEL_RA L3
@@ -1345,7 +1345,7 @@ F 4 "digikey" H 9300 5950 60  0001 C CNN "Vendor"
 F 5 "350-1719-ND" H 9400 6050 60  0001 C CNN "PartNumber"
 F 6 "LED 2MM 5V RT ANGLE YELLOW PCMNT" H 9500 6150 60  0001 C CNN "Description"
 	1    9200 5750
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text Label 9200 5450 0    60   ~ 0
 LED_YEL
@@ -1358,7 +1358,7 @@ F 1 "GND" H 9205 5827 50  0000 C CNN
 F 2 "" H 9200 6000 50  0000 C CNN
 F 3 "" H 9200 6000 50  0000 C CNN
 	1    9200 6000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED_5V_GRN_RA L2
@@ -1372,7 +1372,7 @@ F 4 "digikey" H 8850 5950 60  0001 C CNN "Vendor"
 F 5 "350-1717-ND" H 8950 6050 60  0001 C CNN "PartNumber"
 F 6 "LED 2MM 5V RT ANGLE GREEN PCMNT" H 9050 6150 60  0001 C CNN "Description"
 	1    8750 5750
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text Label 8750 5450 0    60   ~ 0
 LED_GRN
@@ -1385,7 +1385,7 @@ F 1 "GND" H 8755 5827 50  0000 C CNN
 F 2 "" H 8750 6000 50  0000 C CNN
 F 3 "" H 8750 6000 50  0000 C CNN
 	1    8750 6000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED_5V_RED_RA L1
@@ -1399,7 +1399,7 @@ F 4 "digikey" H 8400 5950 60  0001 C CNN "Vendor"
 F 5 "350-1712-ND" H 8500 6050 60  0001 C CNN "PartNumber"
 F 6 "LED 2MM 5V RT ANGLE RED PCMNT" H 8600 6150 60  0001 C CNN "Description"
 	1    8300 5750
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L GND #PWR047
@@ -1410,7 +1410,7 @@ F 1 "GND" H 8305 5827 50  0000 C CNN
 F 2 "" H 8300 6000 50  0000 C CNN
 F 3 "" H 8300 6000 50  0000 C CNN
 	1    8300 6000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 6.19k R1
@@ -1424,7 +1424,7 @@ F 4 "digikey" V 8480 5050 60  0001 C CNN "Vendor"
 F 5 "P6.19KAACT-ND" V 8580 5150 60  0001 C CNN "PartNumber"
 F 6 "RES SMD 6.19K OHM 1% 1/2W 1210" V 8680 5250 60  0001 C CNN "Description"
 	1    8300 4950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VPP #PWR048
@@ -1435,7 +1435,7 @@ F 1 "VPP" H 8315 4823 50  0000 C CNN
 F 2 "" H 8300 4650 50  0001 C CNN
 F 3 "" H 8300 4650 50  0001 C CNN
 	1    8300 4650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L MAX6817 U1
@@ -1449,7 +1449,7 @@ F 4 "digikey" H 5750 4350 60  0001 C CNN "Vendor"
 F 5 "MAX6817EUT+TCT-ND" H 5750 4450 60  0001 C CNN "PartNumber"
 F 6 "IC DEBOUNCER SWITCH DUAL SOT23-6" H 5750 4650 60  0001 C CNN "Description"
 	1    5750 5300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VEE #PWR049
@@ -1460,7 +1460,7 @@ F 1 "VEE" H 5767 5123 50  0000 C CNN
 F 2 "" H 5750 4950 50  0000 C CNN
 F 3 "" H 5750 4950 50  0000 C CNN
 	1    5750 4950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR050
@@ -1471,7 +1471,7 @@ F 1 "GND" H 5755 5477 50  0000 C CNN
 F 2 "" H 5750 5650 50  0000 C CNN
 F 3 "" H 5750 5650 50  0000 C CNN
 	1    5750 5650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 5250 5350 2    60   ~ 0
 BTN_A
@@ -1490,10 +1490,10 @@ F 1 "0.1uF" H 4650 5300 30  0000 C CNN
 F 2 "footprints:SM1210" H 4688 5150 30  0001 C CNN
 F 3 "" H 4650 5300 60  0000 C CNN
 F 4 "digikey" H 4750 5500 60  0001 C CNN "Vendor"
-F 5 "478-3586-1-ND" H 4850 5600 60  0001 C CNN "PartNumber"
-F 6 "CAP CER 0.1UF 50V 10% X7R 1210" H 4950 5700 60  0001 C CNN "Description"
+F 5 "399-13229-1-ND" H 4850 5600 60  0001 C CNN "PartNumber"
+F 6 "CAP CER 0.1UF 100V X7R 1210" H 4950 5700 60  0001 C CNN "Description"
 	1    4650 5300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VEE #PWR051
@@ -1504,7 +1504,7 @@ F 1 "VEE" H 4667 5223 50  0000 C CNN
 F 2 "" H 4650 5050 50  0000 C CNN
 F 3 "" H 4650 5050 50  0000 C CNN
 	1    4650 5050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR052
@@ -1515,7 +1515,7 @@ F 1 "GND" H 4655 5377 50  0000 C CNN
 F 2 "" H 4650 5550 50  0000 C CNN
 F 3 "" H 4650 5550 50  0000 C CNN
 	1    4650 5550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 1250 2600 2    60   ~ 0
 BTN_A_D
@@ -1537,7 +1537,7 @@ F 4 "digikey" H 8150 5650 60  0001 C CNN "Vendor"
 F 5 "732-5336-ND" H 8250 5750 60  0001 C CNN "PartNumber"
 F 6 "CONN HEADER 3 POS RA 2.54" H 8350 5850 60  0001 C CNN "Description"
 	1    8050 5350
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 NoConn ~ 8250 5250
 NoConn ~ 9700 6050
@@ -1553,7 +1553,7 @@ F 4 "digikey" H 10000 6250 60  0001 C CNN "Vendor"
 F 5 "36-2027-ND" H 10100 6350 60  0001 C CNN "PartNumber"
 F 6 "Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in" H 10200 6450 60  0001 C CNN "Description"
 	1    9900 6050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 9700 6250
 $Comp
@@ -1568,7 +1568,7 @@ F 4 "digikey" H 10000 6450 60  0001 C CNN "Vendor"
 F 5 "36-2027-ND" H 10100 6550 60  0001 C CNN "PartNumber"
 F 6 "Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in" H 10200 6650 60  0001 C CNN "Description"
 	1    9900 6250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L HEADER_01X02_SMD_RA_UNSHR P12
@@ -1582,7 +1582,7 @@ F 4 "digikey" H 5650 6400 60  0001 C CNN "Vendor"
 F 5 "SAM10781-ND" H 5750 6500 60  0001 C CNN "PartNumber"
 F 6 "CONN HEADER 2POS .100in SNGL SMD" H 5850 6600 60  0001 C CNN "Description"
 	1    5550 6150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR02
@@ -1593,7 +1593,7 @@ F 1 "GND" H 5305 6077 50  0000 C CNN
 F 2 "" H 5300 6250 50  0000 C CNN
 F 3 "" H 5300 6250 50  0000 C CNN
 	1    5300 6250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 5300 6100 2    60   ~ 0
 BTN_A
@@ -1675,17 +1675,17 @@ Wire Wire Line
 	4850 1100 4850 1050
 Connection ~ 4500 1100
 Wire Wire Line
-	4850 800  4850 850 
+	4850 800  4850 850
 Wire Wire Line
-	4500 850  4500 800 
+	4500 850  4500 800
 Wire Wire Line
-	4500 800  4400 800 
+	4500 800  4400 800
 Wire Wire Line
 	4400 800  4400 1000
 Wire Wire Line
 	4400 1000 4350 1000
 Wire Wire Line
-	5050 1100 5050 800 
+	5050 1100 5050 800
 Connection ~ 4850 1100
 Wire Wire Line
 	1200 6200 1200 6250
@@ -2123,7 +2123,7 @@ F 4 "digikey" H 6400 6400 60  0001 C CNN "Vendor"
 F 5 "SAM10781-ND" H 6500 6500 60  0001 C CNN "PartNumber"
 F 6 "CONN HEADER 2POS .100in SNGL SMD" H 6600 6600 60  0001 C CNN "Description"
 	1    6300 6150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR03
@@ -2134,7 +2134,7 @@ F 1 "GND" H 6055 6077 50  0000 C CNN
 F 2 "" H 6050 6250 50  0000 C CNN
 F 3 "" H 6050 6250 50  0000 C CNN
 	1    6050 6250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 6050 6100 2    60   ~ 0
 BTN_B
