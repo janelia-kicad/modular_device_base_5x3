@@ -1,4 +1,4 @@
-update=Wed 04 Oct 2017 11:18:32 AM EDT
+update=Mon 08 Jan 2018 11:23:29 AM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,8 +37,4 @@ LabSize=60
 ERC_TestSimilarLabels=1
 [eeschema]
 version=1
-LibDir=${KILIBS}
-[eeschema/libraries]
-LibName1=power
-LibName2=modular_device_base_5x3
-LibName3=components
+LibDir=
