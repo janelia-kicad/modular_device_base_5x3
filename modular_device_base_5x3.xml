@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/kicad/modular_device_base_5x3/modular_device_base_5x3.sch</source>
-    <date>Tue 08 Aug 2017 06:31:42 PM EDT</date>
-    <tool>Eeschema no-vcs-found-ef6910f~59~ubuntu16.04.1</tool>
+    <date>Wed 16 May 2018 02:41:25 PM EDT</date>
+    <tool>Eeschema 5.0.0-rc2-dev-unknown-904eb82~65~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>modular_device_base_5x3</title>
@@ -27,7 +27,7 @@
         <field name="PartNumber">945-1395-5-ND</field>
         <field name="Description">CONV DC/DC 1A 5V OUT SIP VERT</field>
       </fields>
-      <libsource lib="components" part="CONV_DC_DC_5V_1A"/>
+      <libsource lib="modular_device_base_5x3" part="CONV_DC_DC_5V_1A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5751CAA6</tstamp>
     </comp>
@@ -39,7 +39,7 @@
         <field name="PartNumber">445-4536-1-ND</field>
         <field name="Description">CAP CER 10UF 50V 10% X7S 1210</field>
       </fields>
-      <libsource lib="components" part="10uF"/>
+      <libsource lib="modular_device_base_5x3" part="10uF"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5751CBF8</tstamp>
     </comp>
@@ -51,7 +51,7 @@
         <field name="PartNumber">445-4536-1-ND</field>
         <field name="Description">CAP CER 10UF 50V 10% X7S 1210</field>
       </fields>
-      <libsource lib="components" part="10uF"/>
+      <libsource lib="modular_device_base_5x3" part="10uF"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5751CD5D</tstamp>
     </comp>
@@ -63,7 +63,7 @@
         <field name="PartNumber">A100890CT-ND</field>
         <field name="Description">CONN HEADER 3POS R/A SMD GOLD</field>
       </fields>
-      <libsource lib="components" part="HEADER_01X03_SMD_RA"/>
+      <libsource lib="modular_device_base_5x3" part="HEADER_01X03_SMD_RA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5751EDB4</tstamp>
     </comp>
@@ -75,7 +75,7 @@
         <field name="PartNumber">A100890CT-ND</field>
         <field name="Description">CONN HEADER 3POS R/A SMD GOLD</field>
       </fields>
-      <libsource lib="components" part="HEADER_01X03_SMD_RA"/>
+      <libsource lib="modular_device_base_5x3" part="HEADER_01X03_SMD_RA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5751F224</tstamp>
     </comp>
@@ -87,7 +87,7 @@
         <field name="PartNumber">A100890CT-ND</field>
         <field name="Description">CONN HEADER 3POS R/A SMD GOLD</field>
       </fields>
-      <libsource lib="components" part="HEADER_01X03_SMD_RA"/>
+      <libsource lib="modular_device_base_5x3" part="HEADER_01X03_SMD_RA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5751F26D</tstamp>
     </comp>
@@ -99,7 +99,7 @@
         <field name="PartNumber">ACX1655-ND</field>
         <field name="Description">CONN BNC JACK R/A 75 OHM PCB</field>
       </fields>
-      <libsource lib="components" part="BNC_DOUBLE_RA"/>
+      <libsource lib="modular_device_base_5x3" part="BNC_DOUBLE_RA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5751FB89</tstamp>
     </comp>
@@ -111,7 +111,7 @@
         <field name="PartNumber">LSM115JE3/TR13CT-ND</field>
         <field name="Description">DIODE SCHOTTKY 15V 1A DO214BA</field>
       </fields>
-      <libsource lib="components" part="diode_schottky_15V_1A"/>
+      <libsource lib="modular_device_base_5x3" part="diode_schottky_15V_1A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5764103B</tstamp>
     </comp>
@@ -123,7 +123,7 @@
         <field name="PartNumber">LSM115JE3/TR13CT-ND</field>
         <field name="Description">DIODE SCHOTTKY 15V 1A DO214BA</field>
       </fields>
-      <libsource lib="components" part="diode_schottky_15V_1A"/>
+      <libsource lib="modular_device_base_5x3" part="diode_schottky_15V_1A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57640DFA</tstamp>
     </comp>
@@ -135,7 +135,7 @@
         <field name="PartNumber">A100903CT-ND</field>
         <field name="Description">CONN HEADER 2POS R/A SMD GOLD</field>
       </fields>
-      <libsource lib="components" part="HEADER_01X02_SMD_RA"/>
+      <libsource lib="modular_device_base_5x3" part="HEADER_01X02_SMD_RA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57643F2D</tstamp>
     </comp>
@@ -147,7 +147,7 @@
         <field name="PartNumber">568-11697-1-ND</field>
         <field name="Description">DIODE SCHOTTKY 45V 10A CFP15</field>
       </fields>
-      <libsource lib="components" part="diode_schottky_45V_10A"/>
+      <libsource lib="modular_device_base_5x3" part="diode_schottky_45V_10A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5768305F</tstamp>
     </comp>
@@ -159,7 +159,7 @@
         <field name="PartNumber">568-11697-1-ND</field>
         <field name="Description">DIODE SCHOTTKY 45V 10A CFP15</field>
       </fields>
-      <libsource lib="components" part="diode_schottky_45V_10A"/>
+      <libsource lib="modular_device_base_5x3" part="diode_schottky_45V_10A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5768344A</tstamp>
     </comp>
@@ -171,7 +171,7 @@
         <field name="PartNumber">A100903CT-ND</field>
         <field name="Description">CONN HEADER 2POS R/A SMD GOLD</field>
       </fields>
-      <libsource lib="components" part="HEADER_01X02_SMD_RA"/>
+      <libsource lib="modular_device_base_5x3" part="HEADER_01X02_SMD_RA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57683F62</tstamp>
     </comp>
@@ -183,7 +183,7 @@
         <field name="PartNumber">CKN1860CT-ND</field>
         <field name="Description">SWITCH TACTILE SPST-NO 1VA 32V</field>
       </fields>
-      <libsource lib="components" part="KT_SWITCH"/>
+      <libsource lib="modular_device_base_5x3" part="KT_SWITCH"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>576846F0</tstamp>
     </comp>
@@ -195,7 +195,7 @@
         <field name="PartNumber">445-4536-1-ND</field>
         <field name="Description">CAP CER 10UF 50V 10% X7S 1210</field>
       </fields>
-      <libsource lib="components" part="10uF"/>
+      <libsource lib="modular_device_base_5x3" part="10uF"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5788FFF4</tstamp>
     </comp>
@@ -207,7 +207,7 @@
         <field name="PartNumber">445-4536-1-ND</field>
         <field name="Description">CAP CER 10UF 50V 10% X7S 1210</field>
       </fields>
-      <libsource lib="components" part="10uF"/>
+      <libsource lib="modular_device_base_5x3" part="10uF"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5789010A</tstamp>
     </comp>
@@ -219,7 +219,7 @@
         <field name="PartNumber">445-4536-1-ND</field>
         <field name="Description">CAP CER 10UF 50V 10% X7S 1210</field>
       </fields>
-      <libsource lib="components" part="10uF"/>
+      <libsource lib="modular_device_base_5x3" part="10uF"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57890173</tstamp>
     </comp>
@@ -267,7 +267,7 @@
         <field name="PartNumber">1568-1443-ND</field>
         <field name="Description">TEENSY 3.5</field>
       </fields>
-      <libsource lib="components" part="TEENSY_3.5"/>
+      <libsource lib="modular_device_base_5x3" part="TEENSY_3.5"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58996D1E</tstamp>
     </comp>
@@ -279,7 +279,7 @@
         <field name="PartNumber">A100890CT-ND</field>
         <field name="Description">CONN HEADER 3POS R/A SMD GOLD</field>
       </fields>
-      <libsource lib="components" part="HEADER_01X03_SMD_RA"/>
+      <libsource lib="modular_device_base_5x3" part="HEADER_01X03_SMD_RA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5899F279</tstamp>
     </comp>
@@ -292,7 +292,7 @@
         <field name="Description">25 Position Header Through Hole Female Socket</field>
         <field name="PartCount">2</field>
       </fields>
-      <libsource lib="components" part="MODULAR_DEVICE_BASE_5x3_FEMALE"/>
+      <libsource lib="modular_device_base_5x3" part="MODULAR_DEVICE_BASE_5x3_FEMALE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589B14CF</tstamp>
     </comp>
@@ -304,7 +304,7 @@
         <field name="PartNumber">A100903CT-ND</field>
         <field name="Description">CONN HEADER 2POS R/A SMD GOLD</field>
       </fields>
-      <libsource lib="components" part="HEADER_01X02_SMD_RA"/>
+      <libsource lib="modular_device_base_5x3" part="HEADER_01X02_SMD_RA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589B5905</tstamp>
     </comp>
@@ -316,7 +316,7 @@
         <field name="PartNumber">A100903CT-ND</field>
         <field name="Description">CONN HEADER 2POS R/A SMD GOLD</field>
       </fields>
-      <libsource lib="components" part="HEADER_01X02_SMD_RA"/>
+      <libsource lib="modular_device_base_5x3" part="HEADER_01X02_SMD_RA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589B5EC6</tstamp>
     </comp>
@@ -328,7 +328,7 @@
         <field name="PartNumber">568-11697-1-ND</field>
         <field name="Description">DIODE SCHOTTKY 45V 10A CFP15</field>
       </fields>
-      <libsource lib="components" part="diode_schottky_45V_10A"/>
+      <libsource lib="modular_device_base_5x3" part="diode_schottky_45V_10A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589B6C12</tstamp>
     </comp>
@@ -340,7 +340,7 @@
         <field name="PartNumber">CP-063BH-ND</field>
         <field name="Description">CONN PWR JACK DC 2.5X5.5 8A T/H</field>
       </fields>
-      <libsource lib="components" part="PWR_JACK_2.5x5.5"/>
+      <libsource lib="modular_device_base_5x3" part="PWR_JACK_2.5x5.5"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589B87F5</tstamp>
     </comp>
@@ -388,7 +388,7 @@
         <field name="PartNumber">CKN1860CT-ND</field>
         <field name="Description">SWITCH TACTILE SPST-NO 1VA 32V</field>
       </fields>
-      <libsource lib="components" part="KT_SWITCH"/>
+      <libsource lib="modular_device_base_5x3" part="KT_SWITCH"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5924CF5C</tstamp>
     </comp>
@@ -400,7 +400,7 @@
         <field name="PartNumber">568-11697-1-ND</field>
         <field name="Description">DIODE SCHOTTKY 45V 10A CFP15</field>
       </fields>
-      <libsource lib="components" part="diode_schottky_45V_10A"/>
+      <libsource lib="modular_device_base_5x3" part="diode_schottky_45V_10A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5924E820</tstamp>
     </comp>
@@ -412,7 +412,7 @@
         <field name="PartNumber">568-11697-1-ND</field>
         <field name="Description">DIODE SCHOTTKY 45V 10A CFP15</field>
       </fields>
-      <libsource lib="components" part="diode_schottky_45V_10A"/>
+      <libsource lib="modular_device_base_5x3" part="diode_schottky_45V_10A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5924E8CC</tstamp>
     </comp>
@@ -424,7 +424,7 @@
         <field name="PartNumber">568-11697-1-ND</field>
         <field name="Description">DIODE SCHOTTKY 45V 10A CFP15</field>
       </fields>
-      <libsource lib="components" part="diode_schottky_45V_10A"/>
+      <libsource lib="modular_device_base_5x3" part="diode_schottky_45V_10A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5924EFD3</tstamp>
     </comp>
@@ -436,7 +436,7 @@
         <field name="PartNumber">568-11697-1-ND</field>
         <field name="Description">DIODE SCHOTTKY 45V 10A CFP15</field>
       </fields>
-      <libsource lib="components" part="diode_schottky_45V_10A"/>
+      <libsource lib="modular_device_base_5x3" part="diode_schottky_45V_10A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5924F087</tstamp>
     </comp>
@@ -448,7 +448,7 @@
         <field name="PartNumber">568-11697-1-ND</field>
         <field name="Description">DIODE SCHOTTKY 45V 10A CFP15</field>
       </fields>
-      <libsource lib="components" part="diode_schottky_45V_10A"/>
+      <libsource lib="modular_device_base_5x3" part="diode_schottky_45V_10A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5924F6A9</tstamp>
     </comp>
@@ -460,7 +460,7 @@
         <field name="PartNumber">568-11697-1-ND</field>
         <field name="Description">DIODE SCHOTTKY 45V 10A CFP15</field>
       </fields>
-      <libsource lib="components" part="diode_schottky_45V_10A"/>
+      <libsource lib="modular_device_base_5x3" part="diode_schottky_45V_10A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5924F71D</tstamp>
     </comp>
@@ -472,7 +472,7 @@
         <field name="PartNumber">568-11697-1-ND</field>
         <field name="Description">DIODE SCHOTTKY 45V 10A CFP15</field>
       </fields>
-      <libsource lib="components" part="diode_schottky_45V_10A"/>
+      <libsource lib="modular_device_base_5x3" part="diode_schottky_45V_10A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5924FE0F</tstamp>
     </comp>
@@ -484,7 +484,7 @@
         <field name="PartNumber">568-11697-1-ND</field>
         <field name="Description">DIODE SCHOTTKY 45V 10A CFP15</field>
       </fields>
-      <libsource lib="components" part="diode_schottky_45V_10A"/>
+      <libsource lib="modular_device_base_5x3" part="diode_schottky_45V_10A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5924FE87</tstamp>
     </comp>
@@ -496,7 +496,7 @@
         <field name="PartNumber">350-1719-ND</field>
         <field name="Description">LED 2MM 5V RT ANGLE YELLOW PCMNT</field>
       </fields>
-      <libsource lib="components" part="LED_5V_YEL_RA"/>
+      <libsource lib="modular_device_base_5x3" part="LED_5V_YEL_RA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>592536E5</tstamp>
     </comp>
@@ -508,7 +508,7 @@
         <field name="PartNumber">350-1717-ND</field>
         <field name="Description">LED 2MM 5V RT ANGLE GREEN PCMNT</field>
       </fields>
-      <libsource lib="components" part="LED_5V_GRN_RA"/>
+      <libsource lib="modular_device_base_5x3" part="LED_5V_GRN_RA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>592542ED</tstamp>
     </comp>
@@ -520,7 +520,7 @@
         <field name="PartNumber">350-1712-ND</field>
         <field name="Description">LED 2MM 5V RT ANGLE RED PCMNT</field>
       </fields>
-      <libsource lib="components" part="LED_5V_RED_RA"/>
+      <libsource lib="modular_device_base_5x3" part="LED_5V_RED_RA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59254C66</tstamp>
     </comp>
@@ -532,7 +532,7 @@
         <field name="PartNumber">P6.19KAACT-ND</field>
         <field name="Description">RES SMD 6.19K OHM 1% 1/2W 1210</field>
       </fields>
-      <libsource lib="components" part="6.19k"/>
+      <libsource lib="modular_device_base_5x3" part="6.19k"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59255896</tstamp>
     </comp>
@@ -544,7 +544,7 @@
         <field name="PartNumber">MAX6817EUT+TCT-ND</field>
         <field name="Description">IC DEBOUNCER SWITCH DUAL SOT23-6</field>
       </fields>
-      <libsource lib="components" part="MAX6817"/>
+      <libsource lib="modular_device_base_5x3" part="MAX6817"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59257561</tstamp>
     </comp>
@@ -556,7 +556,7 @@
         <field name="PartNumber">399-13229-1-ND</field>
         <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
       </fields>
-      <libsource lib="components" part="0.1uF"/>
+      <libsource lib="modular_device_base_5x3" part="0.1uF"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>592590DC</tstamp>
     </comp>
@@ -568,7 +568,7 @@
         <field name="PartNumber">732-5336-ND</field>
         <field name="Description">CONN HEADER 3 POS RA 2.54</field>
       </fields>
-      <libsource lib="components" part="HEADER_01X03_RA"/>
+      <libsource lib="modular_device_base_5x3" part="HEADER_01X03_RA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5925E8C6</tstamp>
     </comp>
@@ -604,7 +604,7 @@
         <field name="PartNumber">SAM10781-ND</field>
         <field name="Description">CONN HEADER 2POS .100in SNGL SMD</field>
       </fields>
-      <libsource lib="components" part="HEADER_01X02_SMD_RA_UNSHR"/>
+      <libsource lib="modular_device_base_5x3" part="HEADER_01X02_SMD_RA_UNSHR"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>598A4B20</tstamp>
     </comp>
@@ -616,13 +616,13 @@
         <field name="PartNumber">SAM10781-ND</field>
         <field name="Description">CONN HEADER 2POS .100in SNGL SMD</field>
       </fields>
-      <libsource lib="components" part="HEADER_01X02_SMD_RA_UNSHR"/>
+      <libsource lib="modular_device_base_5x3" part="HEADER_01X02_SMD_RA_UNSHR"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>598A63DE</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="components" part="0.1uF">
+    <libpart lib="modular_device_base_5x3" part="0.1uF">
       <footprints>
         <fp>SM*</fp>
         <fp>C?</fp>
@@ -631,7 +631,7 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">0.1uF</field>
-        <field name="Footprint">footprints:SM1210</field>
+        <field name="Footprint">modular_device_base_5x3:SM1210</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">399-13229-1-ND</field>
         <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
@@ -641,7 +641,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="components" part="10uF">
+    <libpart lib="modular_device_base_5x3" part="10uF">
       <footprints>
         <fp>SM*</fp>
         <fp>C?</fp>
@@ -650,7 +650,7 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">10uF</field>
-        <field name="Footprint">footprints:SM1210</field>
+        <field name="Footprint">modular_device_base_5x3:SM1210</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">445-4536-1-ND</field>
         <field name="Description">CAP CER 10UF 50V 10% X7S 1210</field>
@@ -660,7 +660,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="components" part="6.19k">
+    <libpart lib="modular_device_base_5x3" part="6.19k">
       <footprints>
         <fp>R?</fp>
         <fp>SM0603</fp>
@@ -671,7 +671,7 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">6.19k</field>
-        <field name="Footprint">footprints:SM1210</field>
+        <field name="Footprint">modular_device_base_5x3:SM1210</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">P6.19KAACT-ND</field>
         <field name="Description">RES SMD 6.19K OHM 1% 1/2W 1210</field>
@@ -681,7 +681,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="components" part="BNC_DOUBLE_RA">
+    <libpart lib="modular_device_base_5x3" part="BNC_DOUBLE_RA">
       <footprints>
         <fp>Pin_Header_Straight_2X02</fp>
         <fp>Pin_Header_Angled_2X02</fp>
@@ -691,7 +691,7 @@
       <fields>
         <field name="Reference">P</field>
         <field name="Value">BNC_DOUBLE_RA</field>
-        <field name="Footprint">footprints:BNC_DOUBLE</field>
+        <field name="Footprint">modular_device_base_5x3:BNC_DOUBLE</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">ACX1655-ND</field>
         <field name="Description">CONN BNC JACK R/A 75 OHM PCB</field>
@@ -703,11 +703,11 @@
         <pin num="4" name="P4" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="components" part="CONV_DC_DC_5V_1A">
+    <libpart lib="modular_device_base_5x3" part="CONV_DC_DC_5V_1A">
       <fields>
         <field name="Reference">REG</field>
         <field name="Value">CONV_DC_DC_5V_1A</field>
-        <field name="Footprint">footprints:DC_DC_CONV_R78C</field>
+        <field name="Footprint">modular_device_base_5x3:DC_DC_CONV_R78C</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">945-1395-5-ND</field>
         <field name="Description">CONV DC/DC 1A 5V OUT SIP VERT</field>
@@ -718,7 +718,8 @@
         <pin num="3" name="+VOUT" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="components" part="HEADER_01X02_SMD_RA">
+    <libpart lib="modular_device_base_5x3" part="HEADER_01X02_SMD_RA">
+      <description>Connector 01x02</description>
       <footprints>
         <fp>Pin_Header_Straight_1X02</fp>
         <fp>Pin_Header_Angled_1X02</fp>
@@ -728,7 +729,7 @@
       <fields>
         <field name="Reference">P</field>
         <field name="Value">HEADER_01X02_SMD_RA</field>
-        <field name="Footprint">footprints:Header_2_Pin_SMD_RA</field>
+        <field name="Footprint">modular_device_base_5x3:Header_2_Pin_SMD_RA</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">A100903CT-ND</field>
         <field name="Description">CONN HEADER 2POS R/A SMD GOLD</field>
@@ -738,7 +739,7 @@
         <pin num="2" name="P2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="components" part="HEADER_01X02_SMD_RA_UNSHR">
+    <libpart lib="modular_device_base_5x3" part="HEADER_01X02_SMD_RA_UNSHR">
       <footprints>
         <fp>Pin_Header_Straight_1X02</fp>
         <fp>Pin_Header_Angled_1X02</fp>
@@ -748,7 +749,7 @@
       <fields>
         <field name="Reference">P</field>
         <field name="Value">HEADER_01X02_SMD_RA_UNSHR</field>
-        <field name="Footprint">footprints:Header_2_Pin_SMD_RA_UNSHR</field>
+        <field name="Footprint">modular_device_base_5x3:Header_2_Pin_SMD_RA_UNSHR</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">SAM10781-ND</field>
         <field name="Description">CONN HEADER 2POS .100in SNGL SMD</field>
@@ -758,7 +759,7 @@
         <pin num="2" name="P2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="components" part="HEADER_01X03_RA">
+    <libpart lib="modular_device_base_5x3" part="HEADER_01X03_RA">
       <footprints>
         <fp>Pin_Header_Straight_1X03</fp>
         <fp>Pin_Header_Angled_1X03</fp>
@@ -768,7 +769,7 @@
       <fields>
         <field name="Reference">P</field>
         <field name="Value">HEADER_01X03_RA</field>
-        <field name="Footprint">footprints:Header_3_Pin_RA</field>
+        <field name="Footprint">modular_device_base_5x3:Header_3_Pin_RA</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">732-5336-ND</field>
         <field name="Description">CONN HEADER 3 POS RA 2.54</field>
@@ -779,7 +780,7 @@
         <pin num="3" name="P3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="components" part="HEADER_01X03_SMD_RA">
+    <libpart lib="modular_device_base_5x3" part="HEADER_01X03_SMD_RA">
       <footprints>
         <fp>Pin_Header_Straight_1X03</fp>
         <fp>Pin_Header_Angled_1X03</fp>
@@ -789,7 +790,7 @@
       <fields>
         <field name="Reference">P</field>
         <field name="Value">HEADER_01X03_SMD_RA</field>
-        <field name="Footprint">footprints:Header_3_Pin_SMD_RA</field>
+        <field name="Footprint">modular_device_base_5x3:Header_3_Pin_SMD_RA</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">A100890CT-ND</field>
         <field name="Description">CONN HEADER 3POS R/A SMD GOLD</field>
@@ -800,11 +801,11 @@
         <pin num="3" name="P3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="components" part="KT_SWITCH">
+    <libpart lib="modular_device_base_5x3" part="KT_SWITCH">
       <fields>
         <field name="Reference">SW</field>
         <field name="Value">KT_SWITCH</field>
-        <field name="Footprint">footprints:KT_SWITCH</field>
+        <field name="Footprint">modular_device_base_5x3:KT_SWITCH</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">CKN1860CT-ND</field>
         <field name="Description">SWITCH TACTILE SPST-NO 1VA 32V</field>
@@ -814,7 +815,7 @@
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="components" part="LED_5V_GRN_RA">
+    <libpart lib="modular_device_base_5x3" part="LED_5V_GRN_RA">
       <footprints>
         <fp>LED-3MM</fp>
         <fp>LED-5MM</fp>
@@ -827,7 +828,7 @@
       <fields>
         <field name="Reference">L</field>
         <field name="Value">LED_5V_GRN_RA</field>
-        <field name="Footprint">footprints:LED_555-2XXX</field>
+        <field name="Footprint">modular_device_base_5x3:LED_555-2XXX</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">350-1717-ND</field>
         <field name="Description">LED 2MM 5V RT ANGLE GREEN PCMNT</field>
@@ -837,7 +838,7 @@
         <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="components" part="LED_5V_RED_RA">
+    <libpart lib="modular_device_base_5x3" part="LED_5V_RED_RA">
       <footprints>
         <fp>LED-3MM</fp>
         <fp>LED-5MM</fp>
@@ -850,7 +851,7 @@
       <fields>
         <field name="Reference">L</field>
         <field name="Value">LED_5V_RED_RA</field>
-        <field name="Footprint">footprints:LED_555-2XXX</field>
+        <field name="Footprint">modular_device_base_5x3:LED_555-2XXX</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">350-1712-ND</field>
         <field name="Description">LED 2MM 5V RT ANGLE RED PCMNT</field>
@@ -860,7 +861,7 @@
         <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="components" part="LED_5V_YEL_RA">
+    <libpart lib="modular_device_base_5x3" part="LED_5V_YEL_RA">
       <footprints>
         <fp>LED-3MM</fp>
         <fp>LED-5MM</fp>
@@ -873,7 +874,7 @@
       <fields>
         <field name="Reference">L</field>
         <field name="Value">LED_5V_YEL_RA</field>
-        <field name="Footprint">footprints:LED_555-2XXX</field>
+        <field name="Footprint">modular_device_base_5x3:LED_555-2XXX</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">350-1719-ND</field>
         <field name="Description">LED 2MM 5V RT ANGLE YELLOW PCMNT</field>
@@ -883,11 +884,11 @@
         <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="components" part="MAX6817">
+    <libpart lib="modular_device_base_5x3" part="MAX6817">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">MAX6817</field>
-        <field name="Footprint">footprints:MAX6817</field>
+        <field name="Footprint">modular_device_base_5x3:MAX6817</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">MAX6817EUT+TCT-ND</field>
         <field name="Description">IC DEBOUNCER SWITCH DUAL SOT23-6</field>
@@ -921,11 +922,11 @@
         <pin num="1" name="P1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="components" part="MODULAR_DEVICE_BASE_5x3_FEMALE">
+    <libpart lib="modular_device_base_5x3" part="MODULAR_DEVICE_BASE_5x3_FEMALE">
       <fields>
         <field name="Reference">MDB</field>
         <field name="Value">MODULAR_DEVICE_BASE_5x3_FEMALE</field>
-        <field name="Footprint">footprints:MODULAR_DEVICE_BASE_5X3_FEMALE</field>
+        <field name="Footprint">modular_device_base_5x3:MODULAR_DEVICE_BASE_5X3_FEMALE</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">S7058-ND</field>
         <field name="Description">25 Position Header Through Hole Female Socket</field>
@@ -984,7 +985,7 @@
         <pin num="VEE" name="VEE_(+4-5VDC)" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="components" part="PWR_JACK_2.5x5.5">
+    <libpart lib="modular_device_base_5x3" part="PWR_JACK_2.5x5.5">
       <footprints>
         <fp>Pin_Header_Straight_1X02</fp>
         <fp>Pin_Header_Angled_1X02</fp>
@@ -994,7 +995,7 @@
       <fields>
         <field name="Reference">P</field>
         <field name="Value">PWR_JACK_2.5x5.5</field>
-        <field name="Footprint">footprints:DCJACK_2PIN_HIGHCURRENT</field>
+        <field name="Footprint">modular_device_base_5x3:DCJACK_2PIN_HIGHCURRENT</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">CP-063BH-ND</field>
         <field name="Description">CONN PWR JACK DC 2.5X5.5 8A T/H</field>
@@ -1004,11 +1005,11 @@
         <pin num="2" name="P2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="components" part="TEENSY_3.5">
+    <libpart lib="modular_device_base_5x3" part="TEENSY_3.5">
       <fields>
         <field name="Reference">TEENSY</field>
         <field name="Value">TEENSY_3.5</field>
-        <field name="Footprint">footprints:TEENSY_3.5</field>
+        <field name="Footprint">modular_device_base_5x3:TEENSY_3.5</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">1568-1443-ND</field>
         <field name="Description">TEENSY 3.5</field>
@@ -1087,7 +1088,7 @@
         <pin num="~" name="~" type="NotConnected"/>
       </pins>
     </libpart>
-    <libpart lib="components" part="diode_schottky_15V_1A">
+    <libpart lib="modular_device_base_5x3" part="diode_schottky_15V_1A">
       <footprints>
         <fp>Diode_*</fp>
         <fp>D-Pak_TO252AA</fp>
@@ -1098,7 +1099,7 @@
       <fields>
         <field name="Reference">D</field>
         <field name="Value">diode_schottky_15V_1A</field>
-        <field name="Footprint">footprints:DO-214BA</field>
+        <field name="Footprint">modular_device_base_5x3:DO-214BA</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">LSM115JE3/TR13CT-ND</field>
         <field name="Description">DIODE SCHOTTKY 15V 1A DO214BA</field>
@@ -1108,7 +1109,7 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="components" part="diode_schottky_45V_10A">
+    <libpart lib="modular_device_base_5x3" part="diode_schottky_45V_10A">
       <footprints>
         <fp>Diode_*</fp>
         <fp>D-Pak_TO252AA</fp>
@@ -1119,7 +1120,7 @@
       <fields>
         <field name="Reference">D</field>
         <field name="Value">diode_schottky_45V_10A</field>
-        <field name="Footprint">footprints:CFP15</field>
+        <field name="Footprint">modular_device_base_5x3:CFP15</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">568-11697-1-ND</field>
         <field name="Description">DIODE SCHOTTKY 45V 10A CFP15</field>
@@ -1134,415 +1135,412 @@
     <library logical="modular_device_base_5x3">
       <uri>/home/polidorop/git/kicad/modular_device_base_5x3/modular_device_base_5x3.lib</uri>
     </library>
-    <library logical="components">
-      <uri>/home/polidorop/git/kicad/kicad-libraries/components.lib</uri>
-    </library>
   </libraries>
   <nets>
-    <net code="1" name="VPP">
-      <node ref="D6" pin="1"/>
-      <node ref="R1" pin="1"/>
-      <node ref="REG1" pin="1"/>
-      <node ref="D11" pin="2"/>
-      <node ref="D10" pin="1"/>
-      <node ref="D9" pin="2"/>
-      <node ref="D8" pin="1"/>
-      <node ref="D7" pin="2"/>
-      <node ref="D13" pin="2"/>
-      <node ref="D12" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="D5" pin="2"/>
-      <node ref="C3" pin="1"/>
-      <node ref="D3" pin="1"/>
-      <node ref="D4" pin="1"/>
-    </net>
-    <net code="2" name="/TX3">
-      <node ref="P5" pin="3"/>
-      <node ref="TEENSY1" pin="8"/>
-    </net>
-    <net code="3" name="+5V">
-      <node ref="C2" pin="1"/>
-      <node ref="REG1" pin="3"/>
-      <node ref="D2" pin="2"/>
-    </net>
-    <net code="4" name="/V_USB">
+    <net code="1" name="/V_USB">
       <node ref="D1" pin="2"/>
       <node ref="TEENSY1" pin="V_U"/>
     </net>
-    <net code="5" name="VAA">
-      <node ref="P1" pin="1"/>
-      <node ref="D3" pin="2"/>
-    </net>
-    <net code="6" name="/RX1">
-      <node ref="TEENSY1" pin="0"/>
-      <node ref="P3" pin="1"/>
-    </net>
-    <net code="7" name="/TX1">
-      <node ref="TEENSY1" pin="1"/>
-      <node ref="P3" pin="3"/>
-    </net>
-    <net code="8" name="/RX3">
-      <node ref="TEENSY1" pin="7"/>
-      <node ref="P5" pin="1"/>
-    </net>
-    <net code="9" name="/D15">
-      <node ref="MDB1" pin="15"/>
-      <node ref="TEENSY1" pin="15"/>
-    </net>
-    <net code="10" name="/D11">
-      <node ref="TEENSY1" pin="11"/>
-      <node ref="MDB1" pin="11"/>
-    </net>
-    <net code="11" name="/D50">
-      <node ref="TEENSY1" pin="50"/>
-      <node ref="MDB1" pin="50"/>
-    </net>
-    <net code="12" name="/D23">
-      <node ref="TEENSY1" pin="23"/>
-      <node ref="MDB1" pin="23"/>
-    </net>
-    <net code="13" name="/D22">
-      <node ref="TEENSY1" pin="22"/>
-      <node ref="MDB1" pin="22"/>
-    </net>
-    <net code="14" name="/D21">
-      <node ref="MDB1" pin="21"/>
-      <node ref="TEENSY1" pin="21"/>
-    </net>
-    <net code="15" name="/D20">
-      <node ref="MDB1" pin="20"/>
-      <node ref="TEENSY1" pin="20"/>
-    </net>
-    <net code="16" name="/D19">
-      <node ref="TEENSY1" pin="19"/>
-      <node ref="MDB1" pin="19"/>
-    </net>
-    <net code="17" name="/D18">
-      <node ref="TEENSY1" pin="18"/>
-      <node ref="MDB1" pin="18"/>
-    </net>
-    <net code="18" name="/D17">
-      <node ref="TEENSY1" pin="17"/>
-      <node ref="MDB1" pin="17"/>
-    </net>
-    <net code="19" name="/D16">
-      <node ref="MDB1" pin="16"/>
-      <node ref="TEENSY1" pin="16"/>
-    </net>
-    <net code="20" name="/D42">
-      <node ref="MDB1" pin="42"/>
-      <node ref="TEENSY1" pin="42"/>
-    </net>
-    <net code="21" name="/D14">
-      <node ref="TEENSY1" pin="14"/>
-      <node ref="MDB1" pin="14"/>
-    </net>
-    <net code="22" name="/D13">
-      <node ref="MDB1" pin="13"/>
-      <node ref="TEENSY1" pin="13"/>
-    </net>
-    <net code="23" name="/D53">
-      <node ref="TEENSY1" pin="53"/>
-      <node ref="MDB1" pin="53"/>
-    </net>
-    <net code="24" name="/D2">
-      <node ref="MDB1" pin="2"/>
-      <node ref="TEENSY1" pin="2"/>
-    </net>
-    <net code="25" name="/RX2">
-      <node ref="P7" pin="1"/>
-      <node ref="TEENSY1" pin="9"/>
-    </net>
-    <net code="26" name="/TX2">
-      <node ref="P7" pin="3"/>
-      <node ref="TEENSY1" pin="10"/>
-    </net>
-    <net code="27" name="/D12">
-      <node ref="MDB1" pin="12"/>
-      <node ref="TEENSY1" pin="12"/>
-    </net>
-    <net code="28" name="VSS">
-      <node ref="D9" pin="1"/>
-      <node ref="D8" pin="2"/>
-      <node ref="P6" pin="2"/>
-    </net>
-    <net code="29" name="/A10">
-      <node ref="MDB1" pin="A10"/>
+    <net code="2" name="/A10">
       <node ref="TEENSY1" pin="A10"/>
+      <node ref="MDB1" pin="A10"/>
     </net>
-    <net code="30" name="/A11">
+    <net code="3" name="/A11">
       <node ref="TEENSY1" pin="A11"/>
       <node ref="MDB1" pin="A11"/>
     </net>
-    <net code="31" name="/D55">
-      <node ref="MDB1" pin="55"/>
+    <net code="4" name="/D55">
       <node ref="TEENSY1" pin="55"/>
+      <node ref="MDB1" pin="55"/>
     </net>
-    <net code="32" name="/D54">
+    <net code="5" name="/D54">
       <node ref="MDB1" pin="54"/>
       <node ref="TEENSY1" pin="54"/>
     </net>
-    <net code="33" name="/D5">
-      <node ref="MDB1" pin="5"/>
-      <node ref="TEENSY1" pin="5"/>
-    </net>
-    <net code="34" name="/D6">
-      <node ref="TEENSY1" pin="6"/>
-      <node ref="MDB1" pin="6"/>
-    </net>
-    <net code="35" name="/D52">
-      <node ref="MDB1" pin="52"/>
+    <net code="6" name="/D52">
       <node ref="TEENSY1" pin="52"/>
+      <node ref="MDB1" pin="52"/>
     </net>
-    <net code="36" name="/D40">
-      <node ref="MDB1" pin="40"/>
+    <net code="7" name="/D40">
       <node ref="TEENSY1" pin="40"/>
+      <node ref="MDB1" pin="40"/>
     </net>
-    <net code="37" name="/D41">
-      <node ref="TEENSY1" pin="41"/>
+    <net code="8" name="/TX1">
+      <node ref="TEENSY1" pin="1"/>
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="9" name="/RX3">
+      <node ref="TEENSY1" pin="7"/>
+      <node ref="P5" pin="1"/>
+    </net>
+    <net code="10" name="/TX3">
+      <node ref="P5" pin="3"/>
+      <node ref="TEENSY1" pin="8"/>
+    </net>
+    <net code="11" name="/D41">
       <node ref="MDB1" pin="41"/>
+      <node ref="TEENSY1" pin="41"/>
     </net>
-    <net code="38" name="/LED_YEL">
-      <node ref="L3" pin="1"/>
-      <node ref="TEENSY1" pin="27"/>
+    <net code="12" name="/BNC_A">
+      <node ref="TEENSY1" pin="57"/>
+      <node ref="P2" pin="1"/>
     </net>
-    <net code="39" name="GND">
-      <node ref="P6" pin="1"/>
-      <node ref="SW2" pin="3"/>
-      <node ref="P1" pin="2"/>
-      <node ref="TEENSY1" pin="GND"/>
-      <node ref="P12" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="L3" pin="2"/>
-      <node ref="SW1" pin="3"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="P10" pin="1"/>
-      <node ref="P8" pin="2"/>
-      <node ref="L2" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="MDB1" pin="GND"/>
-      <node ref="C1" pin="2"/>
-      <node ref="REG1" pin="2"/>
-      <node ref="P13" pin="2"/>
-      <node ref="P7" pin="2"/>
-      <node ref="P4" pin="2"/>
-      <node ref="P3" pin="2"/>
-      <node ref="U1" pin="2"/>
-      <node ref="L1" pin="2"/>
-      <node ref="P2" pin="4"/>
-      <node ref="P2" pin="2"/>
-      <node ref="P9" pin="2"/>
-      <node ref="P5" pin="2"/>
-    </net>
-    <net code="40" name="/LED_GRN">
-      <node ref="L2" pin="1"/>
-      <node ref="TEENSY1" pin="26"/>
-    </net>
-    <net code="41" name="VCC">
-      <node ref="D6" pin="2"/>
-      <node ref="P4" pin="1"/>
-      <node ref="D7" pin="1"/>
-    </net>
-    <net code="42" name="Net-(P11-Pad3)">
-      <node ref="P11" pin="3"/>
-    </net>
-    <net code="43" name="/BTN_A_D">
-      <node ref="U1" pin="6"/>
-      <node ref="TEENSY1" pin="24"/>
-    </net>
-    <net code="44" name="/BTN_B_D">
-      <node ref="U1" pin="4"/>
-      <node ref="TEENSY1" pin="25"/>
-    </net>
-    <net code="45" name="Net-(L1-Pad1)">
-      <node ref="L1" pin="1"/>
-      <node ref="P11" pin="1"/>
-    </net>
-    <net code="46" name="Net-(P11-Pad2)">
-      <node ref="P11" pin="2"/>
-      <node ref="R1" pin="2"/>
-    </net>
-    <net code="47" name="VEE">
-      <node ref="U1" pin="5"/>
-      <node ref="MDB1" pin="VEE"/>
-      <node ref="TEENSY1" pin="V_IN"/>
-      <node ref="C6" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="D1" pin="1"/>
-      <node ref="D2" pin="1"/>
-    </net>
-    <net code="48" name="Net-(MH7-Pad1)">
-      <node ref="MH7" pin="1"/>
-    </net>
-    <net code="49" name="Net-(MH8-Pad1)">
-      <node ref="MH8" pin="1"/>
-    </net>
-    <net code="50" name="/BTN_A">
-      <node ref="SW1" pin="2"/>
-      <node ref="P12" pin="1"/>
-      <node ref="U1" pin="1"/>
-    </net>
-    <net code="51" name="VDDA">
-      <node ref="D11" pin="1"/>
-      <node ref="P8" pin="1"/>
-      <node ref="D10" pin="2"/>
-    </net>
-    <net code="52" name="/BTN_B">
-      <node ref="U1" pin="3"/>
-      <node ref="P13" pin="1"/>
-      <node ref="SW2" pin="2"/>
-    </net>
-    <net code="53" name="/D29">
-      <node ref="MDB1" pin="29"/>
-      <node ref="TEENSY1" pin="29"/>
-    </net>
-    <net code="54" name="/D30">
-      <node ref="MDB1" pin="30"/>
-      <node ref="TEENSY1" pin="30"/>
-    </net>
-    <net code="55" name="/BNC_B">
+    <net code="13" name="/BNC_B">
       <node ref="TEENSY1" pin="56"/>
       <node ref="P2" pin="3"/>
     </net>
-    <net code="56" name="/AREF">
-      <node ref="TEENSY1" pin="AREF"/>
+    <net code="14" name="+5V">
+      <node ref="REG1" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="15" name="/D21">
+      <node ref="MDB1" pin="21"/>
+      <node ref="TEENSY1" pin="21"/>
+    </net>
+    <net code="16" name="/D22">
+      <node ref="TEENSY1" pin="22"/>
+      <node ref="MDB1" pin="22"/>
+    </net>
+    <net code="17" name="/D23">
+      <node ref="TEENSY1" pin="23"/>
+      <node ref="MDB1" pin="23"/>
+    </net>
+    <net code="18" name="/AREF">
       <node ref="MDB1" pin="AREF"/>
+      <node ref="TEENSY1" pin="AREF"/>
     </net>
-    <net code="57" name="/3V3">
+    <net code="19" name="/3V3">
       <node ref="MDB1" pin="3V3"/>
-      <node ref="TEENSY1" pin="3V3"/>
       <node ref="C5" pin="1"/>
+      <node ref="TEENSY1" pin="3V3"/>
     </net>
-    <net code="58" name="VDD">
+    <net code="20" name="/AGND">
+      <node ref="TEENSY1" pin="AGND"/>
+      <node ref="MDB1" pin="AGND"/>
+    </net>
+    <net code="21" name="VDD">
       <node ref="MDB1" pin="VDD"/>
       <node ref="D4" pin="2"/>
       <node ref="D5" pin="1"/>
     </net>
-    <net code="59" name="/D35">
-      <node ref="TEENSY1" pin="35"/>
-      <node ref="MDB1" pin="35"/>
+    <net code="22" name="/D16">
+      <node ref="MDB1" pin="16"/>
+      <node ref="TEENSY1" pin="16"/>
     </net>
-    <net code="60" name="/D44">
-      <node ref="MDB1" pin="44"/>
-      <node ref="TEENSY1" pin="44"/>
+    <net code="23" name="/D42">
+      <node ref="TEENSY1" pin="42"/>
+      <node ref="MDB1" pin="42"/>
     </net>
-    <net code="61" name="/D45">
-      <node ref="TEENSY1" pin="45"/>
-      <node ref="MDB1" pin="45"/>
+    <net code="24" name="/D11">
+      <node ref="MDB1" pin="11"/>
+      <node ref="TEENSY1" pin="11"/>
     </net>
-    <net code="62" name="/D46">
-      <node ref="TEENSY1" pin="46"/>
-      <node ref="MDB1" pin="46"/>
+    <net code="25" name="/D12">
+      <node ref="TEENSY1" pin="12"/>
+      <node ref="MDB1" pin="12"/>
     </net>
-    <net code="63" name="/DAC1">
-      <node ref="MDB1" pin="DAC1"/>
-      <node ref="TEENSY1" pin="A22"/>
+    <net code="26" name="/D50">
+      <node ref="MDB1" pin="50"/>
+      <node ref="TEENSY1" pin="50"/>
     </net>
-    <net code="64" name="/DAC0">
-      <node ref="TEENSY1" pin="A21"/>
-      <node ref="MDB1" pin="DAC0"/>
+    <net code="27" name="/D20">
+      <node ref="MDB1" pin="20"/>
+      <node ref="TEENSY1" pin="20"/>
     </net>
-    <net code="65" name="/D51">
-      <node ref="TEENSY1" pin="51"/>
-      <node ref="MDB1" pin="51"/>
+    <net code="28" name="/D19">
+      <node ref="TEENSY1" pin="19"/>
+      <node ref="MDB1" pin="19"/>
     </net>
-    <net code="66" name="/D38">
-      <node ref="TEENSY1" pin="38"/>
-      <node ref="MDB1" pin="38"/>
+    <net code="29" name="/D18">
+      <node ref="MDB1" pin="18"/>
+      <node ref="TEENSY1" pin="18"/>
     </net>
-    <net code="67" name="/D37">
-      <node ref="TEENSY1" pin="37"/>
-      <node ref="MDB1" pin="37"/>
+    <net code="30" name="/D17">
+      <node ref="MDB1" pin="17"/>
+      <node ref="TEENSY1" pin="17"/>
     </net>
-    <net code="68" name="/D36">
-      <node ref="TEENSY1" pin="36"/>
-      <node ref="MDB1" pin="36"/>
+    <net code="31" name="/RX1">
+      <node ref="P3" pin="1"/>
+      <node ref="TEENSY1" pin="0"/>
     </net>
-    <net code="69" name="/D43">
-      <node ref="MDB1" pin="43"/>
-      <node ref="TEENSY1" pin="43"/>
+    <net code="32" name="/D15">
+      <node ref="MDB1" pin="15"/>
+      <node ref="TEENSY1" pin="15"/>
     </net>
-    <net code="70" name="/D34">
-      <node ref="TEENSY1" pin="34"/>
-      <node ref="MDB1" pin="34"/>
+    <net code="33" name="/D14">
+      <node ref="MDB1" pin="14"/>
+      <node ref="TEENSY1" pin="14"/>
     </net>
-    <net code="71" name="/D33">
-      <node ref="MDB1" pin="33"/>
-      <node ref="TEENSY1" pin="33"/>
+    <net code="34" name="/D13">
+      <node ref="MDB1" pin="13"/>
+      <node ref="TEENSY1" pin="13"/>
     </net>
-    <net code="72" name="VSSA">
+    <net code="35" name="/D53">
+      <node ref="TEENSY1" pin="53"/>
+      <node ref="MDB1" pin="53"/>
+    </net>
+    <net code="36" name="/D2">
+      <node ref="TEENSY1" pin="2"/>
+      <node ref="MDB1" pin="2"/>
+    </net>
+    <net code="37" name="/D5">
+      <node ref="MDB1" pin="5"/>
+      <node ref="TEENSY1" pin="5"/>
+    </net>
+    <net code="38" name="/D6">
+      <node ref="TEENSY1" pin="6"/>
+      <node ref="MDB1" pin="6"/>
+    </net>
+    <net code="39" name="/RX2">
+      <node ref="TEENSY1" pin="9"/>
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="40" name="/TX2">
+      <node ref="TEENSY1" pin="10"/>
+      <node ref="P7" pin="3"/>
+    </net>
+    <net code="41" name="/LED_GRN">
+      <node ref="TEENSY1" pin="26"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="42" name="VPP">
+      <node ref="D3" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D13" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D8" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D10" pin="1"/>
+      <node ref="REG1" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="43" name="VEE">
+      <node ref="C4" pin="1"/>
+      <node ref="MDB1" pin="VEE"/>
+      <node ref="TEENSY1" pin="V_IN"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C6" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="44" name="VSSA">
       <node ref="P10" pin="2"/>
-      <node ref="D12" pin="2"/>
       <node ref="D13" pin="1"/>
+      <node ref="D12" pin="2"/>
     </net>
-    <net code="73" name="/BNC_A">
-      <node ref="TEENSY1" pin="57"/>
-      <node ref="P2" pin="1"/>
+    <net code="45" name="/LED_YEL">
+      <node ref="TEENSY1" pin="27"/>
+      <node ref="L3" pin="1"/>
     </net>
-    <net code="74" name="/TX4">
+    <net code="46" name="GND">
+      <node ref="SW2" pin="3"/>
+      <node ref="P10" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="P7" pin="2"/>
+      <node ref="P4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="REG1" pin="2"/>
+      <node ref="P2" pin="4"/>
+      <node ref="P6" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="P8" pin="2"/>
+      <node ref="TEENSY1" pin="GND"/>
+      <node ref="MDB1" pin="GND"/>
+      <node ref="P5" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P13" pin="2"/>
+      <node ref="L3" pin="2"/>
+      <node ref="P12" pin="2"/>
+      <node ref="P9" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="47" name="VAA">
+      <node ref="D3" pin="2"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="48" name="/BTN_B_D">
+      <node ref="TEENSY1" pin="25"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="49" name="/BTN_B">
+      <node ref="P13" pin="1"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="50" name="/BTN_A_D">
+      <node ref="TEENSY1" pin="24"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="51" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="P11" pin="1"/>
+    </net>
+    <net code="52" name="Net-(P11-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="P11" pin="2"/>
+    </net>
+    <net code="53" name="Net-(P11-Pad3)">
+      <node ref="P11" pin="3"/>
+    </net>
+    <net code="54" name="Net-(MH7-Pad1)">
+      <node ref="MH7" pin="1"/>
+    </net>
+    <net code="55" name="Net-(MH8-Pad1)">
+      <node ref="MH8" pin="1"/>
+    </net>
+    <net code="56" name="/BTN_A">
+      <node ref="U1" pin="1"/>
+      <node ref="P12" pin="1"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="57" name="VSS">
+      <node ref="D8" pin="2"/>
+      <node ref="P6" pin="2"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="58" name="VDDA">
+      <node ref="P8" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="59" name="VCC">
+      <node ref="D7" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="60" name="/TX4">
       <node ref="TEENSY1" pin="32"/>
       <node ref="P9" pin="3"/>
     </net>
-    <net code="75" name="/RX4">
+    <net code="61" name="/RX4">
       <node ref="TEENSY1" pin="31"/>
       <node ref="P9" pin="1"/>
     </net>
-    <net code="76" name="/D49">
+    <net code="62" name="/D49">
       <node ref="TEENSY1" pin="49"/>
       <node ref="MDB1" pin="49"/>
     </net>
-    <net code="77" name="/D48">
-      <node ref="TEENSY1" pin="48"/>
+    <net code="63" name="/D48">
       <node ref="MDB1" pin="48"/>
+      <node ref="TEENSY1" pin="48"/>
     </net>
-    <net code="78" name="/D47">
-      <node ref="TEENSY1" pin="47"/>
+    <net code="64" name="/D47">
       <node ref="MDB1" pin="47"/>
+      <node ref="TEENSY1" pin="47"/>
     </net>
-    <net code="79" name="/AGND">
-      <node ref="TEENSY1" pin="AGND"/>
-      <node ref="MDB1" pin="AGND"/>
+    <net code="65" name="/D43">
+      <node ref="TEENSY1" pin="43"/>
+      <node ref="MDB1" pin="43"/>
     </net>
-    <net code="80" name="Net-(MH1-Pad1)">
-      <node ref="MH1" pin="1"/>
+    <net code="66" name="/D44">
+      <node ref="MDB1" pin="44"/>
+      <node ref="TEENSY1" pin="44"/>
     </net>
-    <net code="81" name="Net-(MH2-Pad1)">
-      <node ref="MH2" pin="1"/>
+    <net code="67" name="/D29">
+      <node ref="TEENSY1" pin="29"/>
+      <node ref="MDB1" pin="29"/>
     </net>
-    <net code="82" name="Net-(MH3-Pad1)">
-      <node ref="MH3" pin="1"/>
+    <net code="68" name="/D30">
+      <node ref="MDB1" pin="30"/>
+      <node ref="TEENSY1" pin="30"/>
+    </net>
+    <net code="69" name="/D33">
+      <node ref="TEENSY1" pin="33"/>
+      <node ref="MDB1" pin="33"/>
+    </net>
+    <net code="70" name="/D45">
+      <node ref="TEENSY1" pin="45"/>
+      <node ref="MDB1" pin="45"/>
+    </net>
+    <net code="71" name="/D46">
+      <node ref="MDB1" pin="46"/>
+      <node ref="TEENSY1" pin="46"/>
+    </net>
+    <net code="72" name="/DAC1">
+      <node ref="MDB1" pin="DAC1"/>
+      <node ref="TEENSY1" pin="A22"/>
+    </net>
+    <net code="73" name="/DAC0">
+      <node ref="TEENSY1" pin="A21"/>
+      <node ref="MDB1" pin="DAC0"/>
+    </net>
+    <net code="74" name="/D51">
+      <node ref="MDB1" pin="51"/>
+      <node ref="TEENSY1" pin="51"/>
+    </net>
+    <net code="75" name="/D38">
+      <node ref="MDB1" pin="38"/>
+      <node ref="TEENSY1" pin="38"/>
+    </net>
+    <net code="76" name="/D37">
+      <node ref="MDB1" pin="37"/>
+      <node ref="TEENSY1" pin="37"/>
+    </net>
+    <net code="77" name="/D36">
+      <node ref="MDB1" pin="36"/>
+      <node ref="TEENSY1" pin="36"/>
+    </net>
+    <net code="78" name="/D35">
+      <node ref="TEENSY1" pin="35"/>
+      <node ref="MDB1" pin="35"/>
+    </net>
+    <net code="79" name="/D34">
+      <node ref="TEENSY1" pin="34"/>
+      <node ref="MDB1" pin="34"/>
+    </net>
+    <net code="80" name="Net-(TEENSY1-Pad4)">
+      <node ref="TEENSY1" pin="4"/>
+    </net>
+    <net code="81" name="Net-(TEENSY1-Pad~)">
+      <node ref="TEENSY1" pin="~"/>
+    </net>
+    <net code="82" name="Net-(TEENSY1-Pad~)">
+      <node ref="TEENSY1" pin="~"/>
     </net>
     <net code="83" name="Net-(TEENSY1-Pad3)">
       <node ref="TEENSY1" pin="3"/>
     </net>
-    <net code="84" name="Net-(TEENSY1-Pad4)">
-      <node ref="TEENSY1" pin="4"/>
+    <net code="84" name="Net-(MH1-Pad1)">
+      <node ref="MH1" pin="1"/>
     </net>
-    <net code="85" name="Net-(TEENSY1-Pad~)">
-      <node ref="TEENSY1" pin="~"/>
+    <net code="85" name="Net-(MH2-Pad1)">
+      <node ref="MH2" pin="1"/>
     </net>
-    <net code="86" name="Net-(TEENSY1-Pad~)">
-      <node ref="TEENSY1" pin="~"/>
+    <net code="86" name="Net-(MH3-Pad1)">
+      <node ref="MH3" pin="1"/>
     </net>
-    <net code="87" name="Net-(MH4-Pad1)">
-      <node ref="MH4" pin="1"/>
-    </net>
-    <net code="88" name="Net-(MH5-Pad1)">
-      <node ref="MH5" pin="1"/>
-    </net>
-    <net code="89" name="Net-(MH6-Pad1)">
+    <net code="87" name="Net-(MH6-Pad1)">
       <node ref="MH6" pin="1"/>
     </net>
-    <net code="90" name="Net-(TEENSY1-PadPROG)">
+    <net code="88" name="Net-(TEENSY1-PadPROG)">
       <node ref="TEENSY1" pin="PROG"/>
     </net>
-    <net code="91" name="Net-(TEENSY1-Pad39)">
+    <net code="89" name="Net-(TEENSY1-Pad39)">
       <node ref="TEENSY1" pin="39"/>
     </net>
-    <net code="92" name="Net-(TEENSY1-Pad28)">
+    <net code="90" name="Net-(TEENSY1-Pad28)">
       <node ref="TEENSY1" pin="28"/>
+    </net>
+    <net code="91" name="Net-(MH4-Pad1)">
+      <node ref="MH4" pin="1"/>
+    </net>
+    <net code="92" name="Net-(MH5-Pad1)">
+      <node ref="MH5" pin="1"/>
     </net>
     <net code="93" name="Net-(TEENSY1-PadRSET)">
       <node ref="TEENSY1" pin="RSET"/>
