@@ -1,4 +1,4 @@
-# Created 2018-05-17 Thu 13:46
+# Created 2018-05-18 Fri 09:39
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
@@ -29,8 +29,7 @@ boards.
 
 * Gerbers
 
-Save gerbers zip file and send to your favorite PCB manufacturer for
-fabrication.
+Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 
 [[file:./gerbers/modular_device_base_5x3_v1.2.zip][./gerbers/modular_device_base_5x3_v1.2.zip]]
 
