@@ -1,13 +1,12 @@
-EESchema Schematic File Version 4
-LIBS:modular_device_base_5x3-cache
-EELAYER 26 0
+EESchema Schematic File Version 5
+EELAYER 29 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "modular_device_base_5x3"
 Date ""
-Rev "1.2"
+Rev "2.0"
 Comp "Janelia"
 Comment1 ""
 Comment2 ""
@@ -156,26 +155,6 @@ Text Label 1250 2100 2    60   ~ 0
 RX2
 Text Label 1250 2200 2    60   ~ 0
 TX2
-$Comp
-L modular_device_base_5x3:HEADER_01X03_SMD_RA P7
-U 1 1 5751F224
-P 2950 6300
-F 0 "P7" H 2950 6100 50  0000 C CNN
-F 1 "HEADER_01X03_SMD_RA" V 3050 6300 50  0000 C CNN
-F 2 "modular_device_base_5x3:Header_3_Pin_SMD_RA" H 2850 6400 60  0001 C CNN
-F 3 "" H 2950 6500 60  0000 C CNN
-F 4 "digikey" H 3050 6600 60  0001 C CNN "Vendor"
-F 5 "A100890CT-ND" H 3150 6700 60  0001 C CNN "PartNumber"
-F 6 "CONN HEADER 3POS R/A SMD GOLD" H 3250 6800 60  0001 C CNN "Description"
-	1    2950 6300
-	-1   0    0    1   
-$EndComp
-Text Label 3200 6200 0    60   ~ 0
-TX2
-Text Label 3200 6400 0    60   ~ 0
-RX2
-Text Label 3200 6300 0    60   ~ 0
-GND
 $Comp
 L modular_device_base_5x3:HEADER_01X03_SMD_RA P5
 U 1 1 5751F26D
@@ -747,42 +726,8 @@ F 6 "Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in" H 10200 5650 60  000
 	1    9900 5250
 	1    0    0    -1  
 $EndComp
-$Comp
-L modular_device_base_5x3:TEENSY_3.5 TEENSY1
-U 1 1 58996D1E
-P 2900 1750
-F 0 "TEENSY1" H 2900 2747 60  0000 C CNN
-F 1 "TEENSY_3.5" H 2900 2641 60  0000 C CNN
-F 2 "footprints:TEENSY_3.5" H -2750 1800 60  0001 C CNN
-F 3 "" H -2700 3500 60  0000 C CNN
-F 4 "digikey" H -2750 1900 60  0001 C CNN "Vendor"
-F 5 "1568-1443-ND" H -2750 2000 60  0001 C CNN "PartNumber"
-F 6 "TEENSY 3.5" H -2750 2100 60  0001 C CNN "Description"
-	1    2900 1750
-	1    0    0    -1  
-$EndComp
 Text Label 1250 2300 2    60   ~ 0
 D11
-$Comp
-L modular_device_base_5x3:HEADER_01X03_SMD_RA P9
-U 1 1 5899F279
-P 4050 6300
-F 0 "P9" H 4050 6100 50  0000 C CNN
-F 1 "HEADER_01X03_SMD_RA" V 4150 6300 50  0000 C CNN
-F 2 "modular_device_base_5x3:Header_3_Pin_SMD_RA" H 3950 6400 60  0001 C CNN
-F 3 "" H 4050 6500 60  0000 C CNN
-F 4 "digikey" H 4150 6600 60  0001 C CNN "Vendor"
-F 5 "A100890CT-ND" H 4250 6700 60  0001 C CNN "PartNumber"
-F 6 "CONN HEADER 3POS R/A SMD GOLD" H 4350 6800 60  0001 C CNN "Description"
-	1    4050 6300
-	-1   0    0    1   
-$EndComp
-Text Label 4300 6200 0    60   ~ 0
-TX4
-Text Label 4300 6400 0    60   ~ 0
-RX4
-Text Label 4300 6300 0    60   ~ 0
-GND
 Text Label 1250 3300 2    60   ~ 0
 RX4
 Text Label 1250 3400 2    60   ~ 0
@@ -840,21 +785,6 @@ DAC0
 Text Label 4550 2600 0    60   ~ 0
 DAC1
 NoConn ~ 4350 3500
-$Comp
-L modular_device_base_5x3:MODULAR_DEVICE_BASE_5x3_FEMALE MDB1
-U 1 1 589B14CF
-P 7950 2350
-F 0 "MDB1" H 7950 3347 60  0000 C CNN
-F 1 "MODULAR_DEVICE_BASE_5x3_FEMALE" H 7950 3241 60  0000 C CNN
-F 2 "footprints:MODULAR_DEVICE_BASE_5X3_FEMALE" H 200 850 60  0001 C CNN
-F 3 "" H 250 2550 60  0000 C CNN
-F 4 "digikey" H 200 950 60  0001 C CNN "Vendor"
-F 5 "S7058-ND" H 200 1050 60  0001 C CNN "PartNumber"
-F 6 "25 Position Header Through Hole Female Socket" H 200 1150 60  0001 C CNN "Description"
-F 7 "2" H 1500 1050 60  0001 C CNN "PartCount"
-	1    7950 2350
-	1    0    0    -1  
-$EndComp
 Text Label 9600 3300 0    60   ~ 0
 DAC0
 Text Label 6300 3200 2    60   ~ 0
@@ -892,67 +822,6 @@ D34
 Text Label 9600 4000 0    60   ~ 0
 D33
 $Comp
-L modular_device_base_5x3:HEADER_01X02_SMD_RA P10
-U 1 1 589B5905
-P 4650 6300
-F 0 "P10" H 4650 6150 50  0000 C CNN
-F 1 "HEADER_01X02_SMD_RA" V 4750 6300 50  0000 C CNN
-F 2 "modular_device_base_5x3:Header_2_Pin_SMD_RA" H 4550 6350 50  0001 C CNN
-F 3 "" H 4650 6450 50  0000 C CNN
-F 4 "digikey" H 4750 6550 60  0001 C CNN "Vendor"
-F 5 "A100903CT-ND" H 4850 6650 60  0001 C CNN "PartNumber"
-F 6 "CONN HEADER 2POS R/A SMD GOLD" H 4950 6750 60  0001 C CNN "Description"
-	1    4650 6300
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR029
-U 1 1 589B5911
-P 4900 6450
-F 0 "#PWR029" H 4900 6200 50  0001 C CNN
-F 1 "GND" H 4905 6277 50  0000 C CNN
-F 2 "" H 4900 6450 50  0000 C CNN
-F 3 "" H 4900 6450 50  0000 C CNN
-	1    4900 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L modular_device_base_5x3:HEADER_01X02_SMD_RA P8
-U 1 1 589B5EC6
-P 3700 6300
-F 0 "P8" H 3700 6150 50  0000 C CNN
-F 1 "HEADER_01X02_SMD_RA" V 3800 6300 50  0000 C CNN
-F 2 "modular_device_base_5x3:Header_2_Pin_SMD_RA" H 3600 6350 50  0001 C CNN
-F 3 "" H 3700 6450 50  0000 C CNN
-F 4 "digikey" H 3800 6550 60  0001 C CNN "Vendor"
-F 5 "A100903CT-ND" H 3900 6650 60  0001 C CNN "PartNumber"
-F 6 "CONN HEADER 2POS R/A SMD GOLD" H 4000 6750 60  0001 C CNN "Description"
-	1    3700 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR030
-U 1 1 589B5ED2
-P 3450 6450
-F 0 "#PWR030" H 3450 6200 50  0001 C CNN
-F 1 "GND" H 3455 6277 50  0000 C CNN
-F 2 "" H 3450 6450 50  0000 C CNN
-F 3 "" H 3450 6450 50  0000 C CNN
-	1    3450 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDDA #PWR031
-U 1 1 589B6BAC
-P 2600 5050
-F 0 "#PWR031" H 1600 -400 50  0001 C CNN
-F 1 "VDDA" H 2617 5223 50  0000 C CNN
-F 2 "" H 1600 -250 50  0001 C CNN
-F 3 "" H 1600 -250 50  0001 C CNN
-	1    2600 5050
-	1    0    0    -1  
-$EndComp
-$Comp
 L modular_device_base_5x3:diode_schottky_45V_10A D5
 U 1 1 589B6C12
 P 1350 5250
@@ -975,17 +844,6 @@ F 1 "PWR_FLAG" H 2050 5224 50  0000 C CNN
 F 2 "" H 2050 5000 50  0000 C CNN
 F 3 "" H 2050 5000 50  0000 C CNN
 	1    2050 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDDA #PWR033
-U 1 1 589B72BE
-P 3450 6200
-F 0 "#PWR033" H 2450 750 50  0001 C CNN
-F 1 "VDDA" H 3467 6373 50  0000 C CNN
-F 2 "" H 2450 900 50  0001 C CNN
-F 3 "" H 2450 900 50  0001 C CNN
-	1    3450 6200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1158,106 +1016,6 @@ F 5 "568-11697-1-ND" H 2400 5530 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 2500 5630 60  0001 C CNN "Description"
 	1    2250 5250
 	0    1    1    0   
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG037
-U 1 1 5924F3AB
-P 2500 5000
-F 0 "#FLG037" H 2500 5095 50  0001 C CNN
-F 1 "PWR_FLAG" H 2500 5224 50  0000 C CNN
-F 2 "" H 2500 5000 50  0000 C CNN
-F 3 "" H 2500 5000 50  0000 C CNN
-	1    2500 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L modular_device_base_5x3:diode_schottky_45V_10A D10
-U 1 1 5924F6A9
-P 2500 5250
-F 0 "D10" H 2500 5150 50  0000 C CNN
-F 1 "diode_schottky_45V_10A" H 2220 5170 50  0001 L CNN
-F 2 "modular_device_base_5x3:CFP15" H 2350 5230 60  0001 C CNN
-F 3 "" H 2450 5330 60  0001 C CNN
-F 4 "digikey" H 2550 5430 60  0001 C CNN "Vendor"
-F 5 "568-11697-1-ND" H 2650 5530 60  0001 C CNN "PartNumber"
-F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 2750 5630 60  0001 C CNN "Description"
-	1    2500 5250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L modular_device_base_5x3:diode_schottky_45V_10A D11
-U 1 1 5924F71D
-P 2700 5250
-F 0 "D11" H 2700 5350 50  0000 C CNN
-F 1 "diode_schottky_45V_10A" H 2420 5170 50  0001 L CNN
-F 2 "modular_device_base_5x3:CFP15" H 2550 5230 60  0001 C CNN
-F 3 "" H 2650 5330 60  0001 C CNN
-F 4 "digikey" H 2750 5430 60  0001 C CNN "Vendor"
-F 5 "568-11697-1-ND" H 2850 5530 60  0001 C CNN "PartNumber"
-F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 2950 5630 60  0001 C CNN "Description"
-	1    2700 5250
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VSSA #PWR038
-U 1 1 5924FA03
-P 3050 5050
-F 0 "#PWR038" H 3050 4900 50  0001 C CNN
-F 1 "VSSA" H 3067 5223 50  0000 C CNN
-F 2 "" H 3050 5050 50  0001 C CNN
-F 3 "" H 3050 5050 50  0001 C CNN
-	1    3050 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VSSA #PWR039
-U 1 1 5924FA84
-P 4900 6200
-F 0 "#PWR039" H 4900 6050 50  0001 C CNN
-F 1 "VSSA" H 4917 6373 50  0000 C CNN
-F 2 "" H 4900 6200 50  0001 C CNN
-F 3 "" H 4900 6200 50  0001 C CNN
-	1    4900 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L modular_device_base_5x3:diode_schottky_45V_10A D12
-U 1 1 5924FE0F
-P 2950 5250
-F 0 "D12" H 2950 5150 50  0000 C CNN
-F 1 "diode_schottky_45V_10A" H 2670 5170 50  0001 L CNN
-F 2 "modular_device_base_5x3:CFP15" H 2800 5230 60  0001 C CNN
-F 3 "" H 2900 5330 60  0001 C CNN
-F 4 "digikey" H 3000 5430 60  0001 C CNN "Vendor"
-F 5 "568-11697-1-ND" H 3100 5530 60  0001 C CNN "PartNumber"
-F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 3200 5630 60  0001 C CNN "Description"
-	1    2950 5250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L modular_device_base_5x3:diode_schottky_45V_10A D13
-U 1 1 5924FE87
-P 3150 5250
-F 0 "D13" H 3150 5350 50  0000 C CNN
-F 1 "diode_schottky_45V_10A" H 2870 5170 50  0001 L CNN
-F 2 "modular_device_base_5x3:CFP15" H 3000 5230 60  0001 C CNN
-F 3 "" H 3100 5330 60  0001 C CNN
-F 4 "digikey" H 3200 5430 60  0001 C CNN "Vendor"
-F 5 "568-11697-1-ND" H 3300 5530 60  0001 C CNN "PartNumber"
-F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 3400 5630 60  0001 C CNN "Description"
-	1    3150 5250
-	0    1    1    0   
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG040
-U 1 1 5925001B
-P 2950 5000
-F 0 "#FLG040" H 2950 5095 50  0001 C CNN
-F 1 "PWR_FLAG" H 2950 5224 50  0000 C CNN
-F 2 "" H 2950 5000 50  0000 C CNN
-F 3 "" H 2950 5000 50  0000 C CNN
-	1    2950 5000
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:VPP #PWR041
@@ -1613,12 +1371,6 @@ Wire Wire Line
 Wire Wire Line
 	1450 2000 1250 2000
 Wire Wire Line
-	3150 6200 3200 6200
-Wire Wire Line
-	3150 6300 3200 6300
-Wire Wire Line
-	3150 6400 3200 6400
-Wire Wire Line
 	2000 6200 2050 6200
 Wire Wire Line
 	2000 6300 2050 6300
@@ -1875,12 +1627,6 @@ Wire Wire Line
 Wire Wire Line
 	4350 4500 4550 4500
 Wire Wire Line
-	4250 6200 4300 6200
-Wire Wire Line
-	4250 6300 4300 6300
-Wire Wire Line
-	4250 6400 4300 6400
-Wire Wire Line
 	6500 3200 6300 3200
 Wire Wire Line
 	6500 3300 6300 3300
@@ -1917,22 +1663,6 @@ Wire Wire Line
 Wire Wire Line
 	9400 4000 9600 4000
 Wire Wire Line
-	4850 6250 4900 6250
-Wire Wire Line
-	4900 6250 4900 6200
-Wire Wire Line
-	4850 6350 4900 6350
-Wire Wire Line
-	4900 6350 4900 6450
-Wire Wire Line
-	3450 6200 3450 6250
-Wire Wire Line
-	3450 6250 3500 6250
-Wire Wire Line
-	3500 6350 3450 6350
-Wire Wire Line
-	3450 6350 3450 6450
-Wire Wire Line
 	4200 7700 4200 7800
 Wire Wire Line
 	4200 7200 4200 7150
@@ -1965,18 +1695,6 @@ Wire Wire Line
 Wire Wire Line
 	2250 5100 2250 5150
 Wire Wire Line
-	2500 5000 2500 5100
-Wire Wire Line
-	2500 5100 2600 5100
-Wire Wire Line
-	2700 5100 2700 5150
-Wire Wire Line
-	2950 5000 2950 5100
-Wire Wire Line
-	2950 5100 3050 5100
-Wire Wire Line
-	3150 5100 3150 5150
-Wire Wire Line
 	1250 5050 1250 5100
 Connection ~ 1250 5100
 Connection ~ 1150 5100
@@ -1988,14 +1706,6 @@ Connection ~ 2050 5100
 Wire Wire Line
 	2150 5050 2150 5100
 Connection ~ 2150 5100
-Connection ~ 2500 5100
-Wire Wire Line
-	2600 5050 2600 5100
-Connection ~ 2600 5100
-Connection ~ 2950 5100
-Wire Wire Line
-	3050 5050 3050 5100
-Connection ~ 3050 5100
 Wire Wire Line
 	3400 5000 3400 5100
 Wire Wire Line
@@ -2019,18 +1729,6 @@ Connection ~ 2050 5400
 Wire Wire Line
 	2250 5350 2250 5400
 Connection ~ 2250 5400
-Wire Wire Line
-	2500 5350 2500 5400
-Connection ~ 2500 5400
-Wire Wire Line
-	2700 5350 2700 5400
-Connection ~ 2700 5400
-Wire Wire Line
-	2950 5350 2950 5400
-Connection ~ 2950 5400
-Wire Wire Line
-	3150 5350 3150 5400
-Connection ~ 3150 5400
 Wire Wire Line
 	9200 5550 9200 5450
 Wire Wire Line
@@ -2147,14 +1845,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 5100 2250 5100
 Wire Wire Line
-	2500 5100 2500 5150
-Wire Wire Line
-	2600 5100 2700 5100
-Wire Wire Line
-	2950 5100 2950 5150
-Wire Wire Line
-	3050 5100 3150 5100
-Wire Wire Line
 	3500 5100 3500 5050
 Wire Wire Line
 	1150 5400 1350 5400
@@ -2167,13 +1857,17 @@ Wire Wire Line
 Wire Wire Line
 	2050 5400 2250 5400
 Wire Wire Line
-	2250 5400 2500 5400
-Wire Wire Line
-	2500 5400 2700 5400
-Wire Wire Line
-	2700 5400 2950 5400
-Wire Wire Line
-	2950 5400 3150 5400
-Wire Wire Line
-	3150 5400 3500 5400
+	2250 5400 3500 5400
+$Sheet
+S 6550 1400 2800 2900
+U 5CE7F863
+F0 "modular_device_base_5x3_female" 60
+F1 "modular_device_base_5x3_female.sch" 60
+$EndSheet
+$Sheet
+S 1500 750  2800 3850
+U 5CE7FC73
+F0 "teensy_3.5_plus" 60
+F1 "teensy_3.5_plus.sch" 60
+$EndSheet
 $EndSCHEMATC

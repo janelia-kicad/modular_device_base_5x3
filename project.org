@@ -1,7 +1,7 @@
 * Header                                                           :noexport:
 
   #+MACRO: name modular_device_base_5x3
-  #+MACRO: version 1.2
+  #+MACRO: version 2.0
   #+MACRO: license Open-Source Hardware
   #+MACRO: url https://github.com/janelia-kicad/modular_device_base_5x3
   #+AUTHOR: Peter Polidoro
@@ -15,11 +15,4 @@
 
 * Assembly Instructions
 
-  - Cut the bottom trace on the Teensy board that connects the 5V pads according
-    to these instructions [[https://www.pjrc.com/teensy/external_power.html]].
-  - Solder through hole header pins into every Teensy 0.1 inch header hole.
-  - Solder surface mount header pins onto the bottom of the Teensy making sure
-    they are properly aligned.
   - Solder surface mount and through hole components onto the pcb.
-  - Solder the Teensy into the pcb making sure it is properly aligned.
-  - Connect header jumper to RED LED enable pins.
